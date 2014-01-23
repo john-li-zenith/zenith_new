@@ -53,6 +53,9 @@ STATICFILES_FINDERS = (
     'compressor.finders.CompressorFinder',
 )
 
+# session engine
+
+SESSION_ENGINE = ('django.contrib.sessions.backends.signed_cookies')
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
