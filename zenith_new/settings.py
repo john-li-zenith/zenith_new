@@ -24,6 +24,14 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+COMPRESS_ENABLED = True
+COMPRESS_URL= '/static/'
+COMPRESS_CSS_FILTERS=[
+'compressor.filters.template.TemplateFilter',
+'compressor.filters.css_default.CssAbsoluteFilter',
+]
+
+
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS=(os.path.join(BASE_DIR, 'templates'),)

@@ -1,3 +1,5 @@
+{% load staticfiles %}
+
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;

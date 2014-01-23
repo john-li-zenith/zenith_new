@@ -1,3 +1,4 @@
+{% load staticfiles %}
 .sl-slider-wrapper {
 	width: 800px;
 	height: 400px;
