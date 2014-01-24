@@ -31,6 +31,13 @@ COMPRESS_CSS_FILTERS=[
 'compressor.filters.css_default.CssAbsoluteFilter',
 ]
 
+# default cache
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+        'LOCATION': 'Zenith'
+    }
+}
 
 ALLOWED_HOSTS = []
 
