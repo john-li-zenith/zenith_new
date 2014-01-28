@@ -12,14 +12,14 @@
 
 /* Import Section
 =================================================================== */
-/*
-@import url("icons.css");					/ Icons. /
-@import url("icons-color.css");				/ Icons. /  
-@import url("social-icons.css");			/ Social Icons /
-@import url("fancybox.css");				/ Fancybox /
-@import url("font-awesome.css");			/ Font Awesome /
-@import url("font-awesome-ie7.css");		/ Font Awesome /
-*/
+
+@import url("icons.css");					/* Icons. */
+@import url("icons-color.css");				/* Icons. */  
+@import url("social-icons.css");			/* Social Icons */
+@import url("fancybox.css");				/* Fancybox */
+@import url("font-awesome.css");			/* Font Awesome */
+@import url("font-awesome-ie7.css");		/* Font Awesome */
+
 
 /* Colors Section
 =================================================================== */
