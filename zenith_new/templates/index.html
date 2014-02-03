@@ -870,8 +870,14 @@
                           {% for boundfield in form %}
                           {{ boundfield }}
                           {% endfor %}
+						  
 								<div class="actions">
 									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
+									{% if boundfield.errors %}
+                                        {% for error in boundfield.errors %}
+		  	                               <strong>{{ error|escape }}</strong>
+		                                {% endfor %}
+                                    {% endif %}
 								</div>
 								
 							</fieldset>

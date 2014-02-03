@@ -11,6 +11,6 @@ def validate_phonenumber(value):
 
 class ContactForm(forms.Form):
     name = forms.CharField(max_length=100,widget=forms.TextInput(attrs={'tabindex':'4','id':'name','name':'name','type':'text','value':'','class':'span12','placeholder':'Name: ...'}))
-    email = forms.EmailField(required=False,widget=forms.TextInput(attrs={'tabindex':'2','id':'email','name':'email','type':'text','value':'','class':'span12','placeholder':'Email: ...'}))
+    email = forms.EmailField(widget=forms.EmailInput(attrs={'tabindex':'2','id':'email','name':'email','type':'text','value':'','class':'span12','placeholder':'Email: ...'}))
     phone = forms.CharField(validators=[validate_phonenumber],widget=forms.TextInput(attrs={'tabindex':'3','id':'www','name':'www','type':'text','value':'','class':'span12','placeholder':'Phone: 123-234-3434'}))
-    message = forms.CharField(widget=forms.Textarea,widget=forms.TextInput(attrs={'tabindex':'3','id':'message','name':'body','rows':'7','class':'input-xlarge span12','placeholder':'Message: ...'}))
+    message = forms.CharField(widget=forms.Textarea(attrs={'tabindex':'3','id':'message','name':'body','rows':'7','class':'input-xlarge span12','placeholder':'Message: ...'}))
