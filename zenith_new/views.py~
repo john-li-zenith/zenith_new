@@ -7,5 +7,5 @@ def home(request):
        if form.is_valid():
           pass
     else:
-       form=ContactForm(auto_id=False)
+       form=ContactForm()
     return render(request,'index.html',{'form':form,})
