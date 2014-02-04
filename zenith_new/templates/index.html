@@ -699,7 +699,7 @@
 					<div class="team-name">John Li</div>
 					<div class="position">Founder, CEO</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						John has many years experience on database design, website development, and web deployment. John mainly program in Python, C, C#/Java, and Scala. He develops on Django, and has extensive experience on various SQL and NO-SQL database.
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -717,10 +717,10 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Placeholder</div>
+					<div class="position">Visual Designer</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 					</p>
@@ -740,10 +740,10 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Placeholder</div>
+					<div class="position">Web Developer</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 					</p>
@@ -763,10 +763,10 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Placeholder</div>
+					<div class="position">Web Designer</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 					</p>
@@ -868,18 +868,20 @@
 								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Message: ..."></textarea>
 -->
                           {% for boundfield in form %}
+
                           {{ boundfield }}
-                          {% endfor %}
-						  
-								<div class="actions">
-									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
-									{% if boundfield.errors %}
+                          
+						           {% if boundfield.errors %}
                                         {% for error in boundfield.errors %}
 		  	                               <strong>{{ error|escape }}</strong>
 		                                {% endfor %}
                                     {% endif %}
-								</div>
-								
+						  {% endfor %}
+						  
+								<div class="actions">
+									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
+									
+								</div>								
 							</fieldset>
 
 						</form>
@@ -985,7 +987,7 @@
 	-->
 		
 		<div id="copyright">
-			Zenith Technology LLC &copy; 2014 <a href="" alt="Bootstrap Themes"></a> All Rights Reserved <img src="{% static "img/poland.png" %}" alt="Poland" style="margin-top:-4px">
+			Zenith Technology LLC &copy; 2014 <a href="" alt="Bootstrap Themes"></a> All Rights Reserved <img src="{% static "img/usa.png" %}" alt="Poland" style="margin-top:-4px">
 		</div>
 		<div id="social">
 			<a href="http://facebook.com/BootstrapMaster" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
