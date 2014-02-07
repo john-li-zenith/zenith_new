@@ -20,7 +20,11 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+import socket
+if socket.gethostname() == 'localhost':
+   DEBUG = True
+else:
+   DEBUG = False
 
 TEMPLATE_DEBUG = True
 
