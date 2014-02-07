@@ -1,0 +1,1 @@
+web: gunicorn zenith_new.wsgi
