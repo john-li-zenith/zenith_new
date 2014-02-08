@@ -21,10 +21,10 @@ SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 import socket
-if 'heroku' not in socket.gethostname():
-   DEBUG = True
-else:
+if '127.0.' not in socket.gethostbyname(socket.gethostname()):
    DEBUG = False
+else:
+   DEBUG = True
 
 
 TEMPLATE_DEBUG = True
