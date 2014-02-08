@@ -136,3 +136,11 @@ if not DEBUG:
   STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
+
+# SendGrid setting
+if not DEBUG:
+ EMAIL_HOST = 'smtp.sendgrid.net'
+ EMAIL_HOST_USER = 'app21960119@heroku.com'
+ EMAIL_HOST_PASSWORD = 'ujqqj5zd'
+ EMAIL_PORT = 587
+ EMAIL_USE_TLS = True
