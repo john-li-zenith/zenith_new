@@ -20,7 +20,12 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+import socket
+if socket.gethostname() == 'localhost':
+   DEBUG = True
+else:
+   DEBUG = False
+
 
 TEMPLATE_DEBUG = True
 
@@ -113,20 +118,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-
+if DEBUG:
+  STATIC_URL = '/static/'
 
 ## heroku related settings
+if not DEBUG:
+  # Honor the 'X-Forwarded-Proto' header for request.is_secure()
+  SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-# Honor the 'X-Forwarded-Proto' header for request.is_secure()
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+  # Allow all host headers
+  ALLOWED_HOSTS = ['*']
 
-# Allow all host headers
-ALLOWED_HOSTS = ['*']
+  # Static asset configuration
+  STATIC_ROOT = 'staticfiles'
+  STATIC_URL = '/static/'
 
-# Static asset configuration
-STATIC_ROOT = 'staticfiles'
-STATIC_URL = '/static/'
-
-STATICFILES_DIRS = (
+  STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
 )
