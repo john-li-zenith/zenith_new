@@ -12,8 +12,8 @@ def home(request):
 
        if form.is_valid():
           cd = form.cleaned_data
-          send_mail(cd['www'],cd['message'],cd['name']+'<'+cd['email']+'>',[r'zenith.technology.llc@gmail.com'], fail_silently=False)  
-          return HttpResponseRedirect(reverse('home'))
+          send_mail(cd['phone'],cd['message'],cd['name']+'<'+cd['email']+'>',[r'zenith.technology.llc@gmail.com'], fail_silently=False)  
+          return HttpResponseRedirect('home')
     else:
        form=ContactForm(auto_id=False)
     return render(request,'index.html',{'form':form})
