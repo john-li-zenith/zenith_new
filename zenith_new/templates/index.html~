@@ -184,7 +184,7 @@
 
 				<div id="page-title-inner">
 
-					<h2><span>Services</span></h2>
+					<h2><span>What We Do</span></h2>
 
 				</div>	
 
@@ -197,7 +197,7 @@
         		<div class="span12">
 	
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+						We provide a wide range of services including website design and development, mobile application design and development, managing system development, and all kinds services that you will need to boost your business. We also take over legacy projects which means if you have current websites, webapps or softwares that are outdated, we would like to take over to update them to your current needs. 
 					</p>	
           			
         		</div>
@@ -211,7 +211,7 @@
         		<div class="span6">
 	
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+						We have many years experience on website/webapp development. All of our team members have worked for fortune 500 companies, and have worked on many big projects. We will bring what we learned, and what fortune 500 companies use to your business. 
 					</p>	
           			
         		</div>
@@ -219,7 +219,7 @@
 				<div class="span6">
 	
 					<p>
-						Zenith Technology specializes in analyzing your business needs, investigating the bottleneck of your business growth, and then adopt the right technologies to integrate with your business to make it shine. We have been doing this for over 5 years, and our clients are from various industries.
+						we specializes in analyzing your business needs, investigating the bottleneck of your business growth, and then adopt the right technologies to integrate with your business to make it shine. We have been doing this for over 5 years, and our clients are from various industries.
 					</p>	
           			
         		</div>
@@ -291,7 +291,7 @@
 
 				<div id="page-title-inner">
 
-					<h2><span>Price</span></h2>
+					<h2><span>Services</span></h2>
 
 				</div>	
 
@@ -307,21 +307,21 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-cccddd">
-								<h3>Standard</h3>
-								<h4><span class="price">€9.99</span> <span class="time">per month</span></h4>
+								<h3>Website</h3>
+								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
 								<ul>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
+									<li>Web Design</li>
+									<li>Visual Design</li>
+									<li>Logo Design</li>
+									<li>database design</li>
+									<li>business logic integration</li>
+									<li>SEO</li>
+									<li>Branding support</li>
+									<li>Marketing support</li>
+									<li>Multi-language support</li>
+									<li>CMS</li>
 								</ul>
-								<a href="#" class="buy"><span>Buy</span></a>
+								<a href="#" class="buy"><span>Contact us</span></a>
 							</div>
 						</div>
 					</div>
@@ -329,19 +329,19 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-666777">
-								<h3>Premium</h3>
-								<h4><span class="price">€29.99</span> <span class="time">per month</span></h4>
+								<h3>Mobile App</h3>
+								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
 								<ul>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
+									<li>iOS</li>
+									<li>iPAD</li>
+									<li>Android</li>
+									<li>Windows Phone</li>
+									<li>Website integration</li>
+									<li>Maintenance support</li>
+									<li>Feature request support</li>
+									<li>Store ranking strategy</li>
+									<li>Central managing panel</li>
+									<li>App store optimization</li>
 								</ul>
 								<a href="#" class="buy"><span>Buy</span></a>
 							</div>
@@ -351,19 +351,19 @@
 					<div class="span3">
 						<div class="pricing-table best-option">
 							<div class="color-custom">
-								<h3>Professional</h3>
-								<h4><span class="price">€49.99</span> <span class="time">per month</span></h4>
+								<h3>System</h3>
+								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
 								<ul>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
+									<li>Windows</li>
+									<li>Mac</li>
+									<li>Linux</li>
+									<li>Accounting solution</li>
+									<li>Logistics solution</li>
+									<li>POS solution</li>
+									<li>Data analysis</li>
+									<li>Cash flow control</li>
+									<li>API</li>
+									<li>Add-ons</li>
 								</ul>
 								<a href="#" class="buy"><span>Buy</span></a>
 							</div>
@@ -373,7 +373,7 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-666777">
-								<h3>Ultimate</h3>
+								<h3>Legacy</h3>
 								<h4><span class="price">€99.99</span> <span class="time">per month</span></h4>
 								<ul>
 									<li>Custom option</li>
@@ -466,10 +466,10 @@
 								
 				<div class="span4 portfolio-item website html5 css3 responsive">
 					
-					<div class="picture"><a href="http://smart.bootstrapmaster.com" title="Smart Responsive Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a href="" title="Smart Responsive Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 					
 						<div class="item-description alt">
-							<h5><a href="http://smart.bootstrapmaster.com">Smart Responsive Bootstrap Template</a></h5>
+							<h5><a href="">Smart Responsive Bootstrap Template</a></h5>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
 							</p>
@@ -479,9 +479,9 @@
 
 				<div class="span4 portfolio-item website html5 css3 responsive">
 					<div class="picture">
-						<a href="http://acme.bootstrapmaster.com" title="Title"><img src="{% static "img/portfolio/great.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+						<a href="" title="Title"><img src="{% static "img/portfolio/great.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 							<div class="item-description alt">
-								<h5><a href="http://acme.bootstrapmaster.com">Great Responsive Bootstrap Template</a></h5>
+								<h5><a href="">Great Responsive Bootstrap Template</a></h5>
 								<p>
 									Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 							</p>
@@ -490,9 +490,9 @@
 				</div>
 
 				<div class="span4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href="http://magnus.bootstrapmaster.com" title="Title"><img src="{% static "img/portfolio/magnus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/magnus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="http://magnus.bootstrapmaster.com">Magnus Responsive Bootstrap Template</a></h5>
+							<h5><a href="">Magnus Responsive Bootstrap Template</a></h5>
 							<p>
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 							</p>
@@ -501,9 +501,9 @@
 				</div>
 
 				<div class="span4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="http://optimus.bootstrapmaster.com" title="Title"><img src="{% static "img/portfolio/optimus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/optimus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="http://optimus.bootstrapmaster.com">Optimus Dashboard Bootstrap Template</a></h5>
+							<h5><a href="">Optimus Dashboard Bootstrap Template</a></h5>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 							</p>
@@ -512,9 +512,9 @@
 				</div>
 
 				<div class="span4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="http://perfectum.bootstrapmaster.com" title="Title"><img src="{% static "img/portfolio/perfectum.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/perfectum.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="http://perfectum.bootstrapmaster.com">Perfectum Dashboard Bootstrap Template</a></h5>
+							<h5><a href="">Perfectum Dashboard Bootstrap Template</a></h5>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 							</p>
@@ -523,9 +523,9 @@
 				</div>
 
 				<div class="span4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href="http://redbox.bootstrapmaster.com"><img src="{% static "img/portfolio/redbox.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a href=""><img src="{% static "img/portfolio/redbox.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
-							<h5><a href="http://redbox.bootstrapmaster.com">Red Box Responsive Bootstrap Template</a></h5>
+							<h5><a href="">Red Box Responsive Bootstrap Template</a></h5>
 							<p>
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 							</p>
@@ -590,12 +590,12 @@
 
 					<!-- start: History -->
 					<div id="history">
-						<h3>History</h3>
+						<h3>Characteristics</h3>
 						<p>
-							<span class="dropcap">P</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+							<span class="dropcap">D</span>Diversity is a key characteristic here in Zenith. Team members are from different backgrounds, working in different industries, but all have a deep understanding on how to integrate business and technologies more efficiently. We are not just pure engineers, but engineers who understand business, and farsee the future.
 						</p>
 						<p>
-							<span class="dropcap color">P</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+							<span class="dropcap color">T</span>Talents 
 						</p>
 						<p>
 							<span class="dropcap dark">P</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
@@ -620,16 +620,22 @@
 			       	<h3>Our Skills</h3>
 			       	<ul class="progress-bar">
 						<li>
-			            	<h5>Web Design ( 40% )</h5>
+			            	<h5>Web Development ( 80% )</h5>
 			          	</li>
 			        	<li>
-			            	<div class="meter"><span style="width: 40%"></span></div><!-- Edite width here -->
+			            	<div class="meter"><span style="width: 80%"></span></div><!-- Edite width here -->
 			          	</li>
 						<li>
-			            	<h5>Wordpress ( 80% )</h5>
+			            	<h5>Business Integration ( 90% )</h5>
+			          	</li>
+			        	<li>
+			            	<div class="meter"><span style="width: 90%"></span></div><!-- Edite width here -->
+			          	</li>
+						<li>
+			            	<h5>System Development ( 60% )</h5>
 			          	</li>
 			          	<li>
-			            	<div class="meter"><span style="width: 80%"></span></div><!-- Edite width here -->
+			            	<div class="meter"><span style="width: 60%"></span></div><!-- Edite width here -->
 			          	</li>
 						<li>
 			            	<h5>Branding ( 100% )</h5>
@@ -638,10 +644,10 @@
 			            	<div class="meter"><span style="width: 100%"></span></div><!-- Edite width here -->
 			          	</li>
 			          	<li>
-			            	<h5>SEO Optmization ( 60% )</h5>
+			            	<h5>SEO Optmization ( 70% )</h5>
 			          	</li>
 						<li>
-			            	<div class="meter"><span style="width: 60%"></span></div><!-- Edite width here -->
+			            	<div class="meter"><span style="width: 70%"></span></div><!-- Edite width here -->
 			          	</li>
 			      	</ul>
 			      	<!-- end: Skills -->
@@ -697,9 +703,9 @@
 						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
 					<div class="team-name">John Li</div>
-					<div class="position">Founder, CEO</div>
+					<div class="position">Web Developer</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						John has many years experience on database design, website development, and web deployment. John mainly program in Python, C, C#/Java, and Scala. He develops on Django, and has extensive experience on various SQL and NO-SQL databases. He is currently working for a international Law firm as a legal data consultant.
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -717,12 +723,12 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Justin Lee</div>
+					<div class="position">Web Designer</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						Justin is currently working a leading gaming company as a web designer.
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -740,10 +746,10 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Placeholder</div>
+					<div class="position">Web Developer</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 					</p>
@@ -763,10 +769,10 @@
 				<!-- start: About Member -->
 				<div class="span3">
 					<div class="avatar">
-						<img class="img-circle" src="{% static "img/team_member.jpg" %}" alt="team member">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Lucas Luck</div>
-					<div class="position">Co-Founder, CEO</div>
+					<div class="team-name">Placeholder</div>
+					<div class="position">Web Designer</div>
 					<p>
 						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
 					</p>
@@ -867,12 +873,21 @@
 								<input tabindex="3" id="www" name="www" type="text" value="" class="span12" placeholder="Phone: 123-234-3434">
 								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Message: ..."></textarea>
 -->
+                          {% for boundfield in form %}
 
-                         {{ form }}
+                          {{ boundfield }}
+                          
+						           {% if boundfield.errors %}
+                                        {% for error in boundfield.errors %}
+		  	                               <strong>{{ error|escape }}</strong>
+		                                {% endfor %}
+                                    {% endif %}
+						  {% endfor %}
+						  
 								<div class="actions">
 									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
-								</div>
-								
+									
+								</div>								
 							</fieldset>
 
 						</form>
@@ -978,12 +993,12 @@
 	-->
 		
 		<div id="copyright">
-			Zenith Technology LLC &copy; 2014 <a href="" alt="Bootstrap Themes"></a> All Rights Reserved <img src="{% static "img/poland.png" %}" alt="Poland" style="margin-top:-4px">
+			Zenith Technology LLC &copy; 2013-2014 <a href="" alt="Bootstrap Themes"></a> All Rights Reserved <img src="{% static "img/usa.png" %}" alt="Poland" style="margin-top:-4px">
 		</div>
 		<div id="social">
-			<a href="http://facebook.com/BootstrapMaster" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
-			<a href="http://facebook.com/BootstrapMaster" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
-			<a href="http://BootstrapMaster.com/feed/" rel="tooltip" title="RSS" class="rss">RSS</a>
+			<a href="" rel="tooltip" title="Facebook" class="facebook">Facebook</a>
+			<a href="" rel="tooltip" title="Twitter" class="twitter">Twitter</a>
+			<a href="" rel="tooltip" title="RSS" class="rss">RSS</a>
 			<a href="#" rel="tooltip" title="Github" class="github">Github</a>
 			<a href="#" rel="tooltip" title="LinkedIn" class="linkedin">LinkedIn</a>
 			<a href="#" rel="tooltip" title="Pintrest" class="pintrest">Pintrest</a>
