@@ -1,5 +1,6 @@
 {% load staticfiles %}
 {% load compress %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,6 +42,7 @@
 	<link href="{% static "css/font-awesome.css"  %}" rel="stylesheet">
 	<link href="{% static "css/font-awesome-ie7.css"  %}" rel="stylesheet">
 	{% endcompress %}
+         <style type="text/css">select { width:90px;}</style>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
@@ -73,18 +75,26 @@
 			          		<a class="btn btn-navbar btnOverlay" data-toggle="collapse" data-target=".nav-collapse">
 			            		menu
 			          		</a>
+
 			          		<div class="nav-collapse collapse">
 							<span><img src="{% static "img/zenith.gif" %}"/></span>
 			            		<ul class="nav">
-									<li><a href="#" class="home">Home</a></li>
-			              			<li><a href="#" class="services">Services</a></li>
-									<li><a href="#" class="pricing">Business</a></li>
-									<li><a href="#" class="portfolio">Portfolio</a></li>
-									<li><a href="#" class="about">About</a></li>
-									<li><a href="#" class="team">Team</a></li>
-									<li><a href="#" class="contact">Contact</a></li>
+									<li><a href="#" class="home">{% trans "Home" %}</a></li>
+			              			<li><a href="#" class="services">{% trans 'Services' %}</a></li>
+									<li><a href="#" class="pricing">{% trans 'Business' %}</a></li>
+									<li><a href="#" class="portfolio">{% trans 'Portfolio' %}</a></li>
+									<li><a href="#" class="about">{% trans 'About' %}</a></li>
+									<li><a href="#" class="team">{% trans 'Team' %}</a></li>
+									<li><a href="#" class="contact">{% trans 'Contact' %}</a></li>
+
+<li style="padding-top:5px;"><form style="margin:0;padding:0;" name=languageform action="{% url 'home' %}" method="POST">
+{% csrf_token %}
+{% for boundfield in lanform %}
+{{ boundfield }}
+{% endfor %}</form></li>
 			            		</ul>
 			          		</div>
+
 			        	</div>
 			      	</div>
 				

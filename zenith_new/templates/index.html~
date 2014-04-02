@@ -1,5 +1,6 @@
 {% load staticfiles %}
 {% load compress %}
+{% load i18n %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,6 +42,7 @@
 	<link href="{% static "css/font-awesome.css"  %}" rel="stylesheet">
 	<link href="{% static "css/font-awesome-ie7.css"  %}" rel="stylesheet">
 	{% endcompress %}
+         <style type="text/css">select { width:90px;}</style>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
@@ -73,18 +75,26 @@
 			          		<a class="btn btn-navbar btnOverlay" data-toggle="collapse" data-target=".nav-collapse">
 			            		menu
 			          		</a>
+
 			          		<div class="nav-collapse collapse">
 							<span><img src="{% static "img/zenith.gif" %}"/></span>
 			            		<ul class="nav">
-									<li><a href="#" class="home">Home</a></li>
-			              			<li><a href="#" class="services">Services</a></li>
-									<li><a href="#" class="pricing">Business</a></li>
-									<li><a href="#" class="portfolio">Portfolio</a></li>
-									<li><a href="#" class="about">About</a></li>
-									<li><a href="#" class="team">Team</a></li>
-									<li><a href="#" class="contact">Contact</a></li>
+									<li><a href="#" class="home">{% trans "Home" %}</a></li>
+			              			<li><a href="#" class="services">{% trans 'Services' %}</a></li>
+									<li><a href="#" class="pricing">{% trans 'Business' %}</a></li>
+									<li><a href="#" class="portfolio">{% trans 'Portfolio' %}</a></li>
+									<li><a href="#" class="about">{% trans 'About' %}</a></li>
+									<li><a href="#" class="team">{% trans 'Team' %}</a></li>
+									<li><a href="#" class="contact">{% trans 'Contact' %}</a></li>
+
+<li style="padding-top:5px;"><form name=languageform action="{% url 'home' %}" method="POST">
+{% csrf_token %}
+{% for boundfield in lanform %}
+{{ boundfield }}
+{% endfor %}</form></li>
 			            		</ul>
 			          		</div>
+
 			        	</div>
 			      	</div>
 				
@@ -599,7 +609,7 @@
 							<span class="dropcap color">T</span>Talent is what we are appreciating. Zenith is growing, and bringing more talented people on board. We believe when talent meets hardwork, it is when amazing things happen. As a team, we share knowledge, help each other, and move forward together
 						</p>
 						<p>
-							<span class="dropcap dark">P</span>Professionalism is 
+							<span class="dropcap dark">P</span>Professionalism is what our team members bring to work. We bring the industsy best practice to what we work in Zenith, which turns out to be a very beneficial thing for our clients. We bring our clients what industry-leading companies are using
 						</p>
 						<p>
 							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
