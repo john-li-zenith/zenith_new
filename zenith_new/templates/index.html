@@ -1,6 +1,7 @@
 {% load staticfiles %}
 {% load compress %}
 {% load i18n %}
+{% load dajaxice_templatetags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +50,11 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 	
 	<!-- end: CSS -->
-
+<script type="text/javascript">
+function send_form(){
+    Dajaxice.ajax.send_form(Dajax.process,{'form':$('#con_form').serialize(true)});
+}
+</script>
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -868,7 +873,7 @@
 					<!-- start: Contact Form -->
 					<div id="contact-form">
 
-						<form method="post" action="">{% csrf_token %}
+						<form method="post" id="con_form" action="">{% csrf_token %}
 							
 							<fieldset>
 								
@@ -889,7 +894,7 @@
 						  {% endfor %}
 						  
 								<div class="actions">
-									<button tabindex="3" type="submit" class="btn btn-succes btn-large">Send message</button>
+									<button tabindex="3" class="btn btn-succes btn-large" onclick="send_form();">{% trans "Send message" %}</button>
 									
 								</div>								
 							</fieldset>
@@ -1014,9 +1019,8 @@
 
 <!-- start: Java Script -->
 <!-- Placed at the end of the document so the pages load faster -->
-
+{% dajaxice_js_import %}
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-{% compress js %}
 <script type="text/javascript" src="{% static "js/isotope.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.imagesloaded.js" %}"></script>
 <script type="text/javascript" src="{% static "js/bootstrap.min.js" %}"></script>
@@ -1027,7 +1031,7 @@
 <script type="text/javascript" src="{% static "js/modernizr.custom.79639.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.ba-cond.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.slitslider.js" %}"></script>
-
+<script type="text/javascript" src="{% static "dajax/jquery.dajax.core.js" %}"></script>
 <script type="text/javascript" src="{% static "js/excanvas.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.flot.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.flot.pie.min.js" %}"></script>
@@ -1035,6 +1039,7 @@
 <script type="text/javascript" src="{% static "js/jquery.flot.resize.min.js" %}"></script>
 
 <script defer="defer" src="{% static "js/custom.js" %}"></script>
+
 <script type="text/javascript">	
 	$(function() {
 	
@@ -1103,7 +1108,7 @@
 	
 	});
 </script>
-{% endcompress %}
+
 <!-- end: Java Script -->
 
 </body>

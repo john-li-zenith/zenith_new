@@ -1,0 +1,21 @@
+from dajaxice.decorators import dajaxice_register
+from dajax.core import Dajax
+from dajaxice.utils import deserialize_form
+from zenith_new.form import ContactForm
+
+@dajaxice_register
+def send_form(request, form):
+    dajax = Dajax()
+    form = ContactForm(deserialize_form(form))
+
+    if form.is_valid():
+        pass
+    else:
+        dajax.alert("Hello World!")
+        #dajax.remove_css_class('#my_form input', 'error')
+        #for error in form.errors:
+            
+
+    return dajax.json()
+
+
