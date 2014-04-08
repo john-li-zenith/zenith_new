@@ -37,6 +37,12 @@ COMPRESS_CSS_FILTERS=[
 'compressor.filters.css_default.CssAbsoluteFilter',
 ]
 
+
+# Email backend for Dev
+if DEBUG:
+ EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
+ EMAIL_FILE_PATH = os.path.join(BASE_DIR,'email') # change this to a proper location
+
 # default cache
 CACHES = {
     'default': {
