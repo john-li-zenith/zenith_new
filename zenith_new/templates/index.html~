@@ -48,7 +48,7 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
-	<link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+	
 	<!-- end: CSS -->
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -890,10 +890,11 @@
 						  {% endfor %}
 						  
 								<div class="actions">
-									<button tabindex="3" type="button" class="btn btn-succes btn-large" onclick="send_form();">{% trans "Send message" %}</button>
+									<button tabindex="3" type="button" class="btn btn-succes btn-large" onclick="send_form();">{% trans "Send message" %}</button><div id="feedback"></div>
 									
 								</div>								
 							</fieldset>
+
 
 						</form>
 
@@ -1020,7 +1021,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 {% dajaxice_js_import %}
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 <script type="text/javascript" src="{% static "js/isotope.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.imagesloaded.js" %}"></script>
 <script type="text/javascript" src="{% static "js/bootstrap.min.js" %}"></script>
