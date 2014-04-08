@@ -736,7 +736,7 @@
 					<div class="team-name">Justin Lee</div>
 					<div class="position">Web Designer</div>
 					<p>
-						Justin is currently working a leading gaming company as a web designer.
+						{% trans 'Justin is currently working in a leading gaming company as a front end web designer. Currently, he is using SASS that is based on bootstrp and HTML5/CSS3 with responsive style.' %}
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -756,10 +756,10 @@
 					<div class="avatar">
 						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Placeholder</div>
-					<div class="position">Web Developer</div>
+					<div class="team-name">Tom Luo</div>
+					<div class="position">Project Coordinator</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						{% trans 'Tom has been involved in numerous projects.' %}
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -779,10 +779,10 @@
 					<div class="avatar">
 						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
 					</div>	
-					<div class="team-name">Placeholder</div>
-					<div class="position">Web Designer</div>
+					<div class="team-name">Chloe Zhang</div>
+					<div class="position">Visual Designer</div>
 					<p>
-						Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+						{% trans 'Chloe specializes in logo and visual design.' %} 
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -881,13 +881,7 @@
                           {% for boundfield in form %}
 
                           {{ boundfield }}
-                          
-						           {% if boundfield.errors %}
-                                        {% for error in boundfield.errors %}
-		  	                               <strong>{{ error|escape }}</strong>
-		                                {% endfor %}
-                                    {% endif %}
-						  {% endfor %}
+		  	                              					      {% endfor %}
 						  
 								<div class="actions">
 									<button tabindex="3" type="button" class="btn btn-succes btn-large" onclick="send_form();">{% trans "Send message" %}</button><div id="feedback" style="color:red;"></div>
@@ -899,9 +893,7 @@
 						</form>
 
 					</div>
-<div id="dialog" style="display:none;" title="Basic dialog">
-  <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
-</div>
+
 					<!-- end: Contact Form -->
 					
 
