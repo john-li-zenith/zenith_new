@@ -37,6 +37,20 @@ COMPRESS_CSS_FILTERS=[
 'compressor.filters.css_default.CssAbsoluteFilter',
 ]
 
+# Language settings
+from django.utils.translation import ugettext_lazy as _
+
+LANGUAGES=(
+  ('en',_('English')),
+  ('zh',_('Chinese')),
+  ('ko',_('Korean')),
+)
+
+LOCALE_PATHS = (
+   os.path.join(BASE_DIR,'locale'),
+)
+
+
 
 # Email backend for Dev
 if DEBUG:
@@ -119,11 +133,12 @@ SESSION_ENGINE = ('django.contrib.sessions.backends.signed_cookies')
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.clickjacking.XFrameOptionsMiddleware',    
 )
 
 ROOT_URLCONF = 'zenith_new.urls'
