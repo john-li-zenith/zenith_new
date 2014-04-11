@@ -148,7 +148,7 @@
 					<div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
 						<div class="sl-slide-inner">
 							<div class="deco" data-icon="F"></div>
-							<h2>{% 'Make Your Business Ready For The Future' %}</h2>
+							<h2>{% trans 'Make Your Business Ready For The Future' %}</h2>
 							<blockquote><p>{% trans 'It is always wise to look ahead, but difficult to look further than you can see.' %}</p><cite>{% trans 'Winston Churchill' %}</cite></blockquote>
 						</div>
 					</div>
