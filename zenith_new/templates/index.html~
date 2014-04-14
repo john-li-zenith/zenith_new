@@ -91,7 +91,7 @@
 <li style="padding-top:5px;"><form style="margin:0;padding:0;" name=languageform action="{% url 'set_language' %}" method="POST">
 <input name="next" type="hidden" value="{% url 'home' %}" />
 {% csrf_token %}
-<select name="language">
+<select id="id_language" name="language" onChange="languageform.submit();">
 {% get_language_info_list for LANGUAGES as languages %}
 {% for language in languages %}
 <option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
@@ -215,7 +215,7 @@
         		<div class="span12">
 	
 					<p>
-						{% trans 'We provide a wide range of services including website design and development, mobile application design and development, managing system development, and all kinds services that you will need to boost your business. We also take over legacy projects which means if you have current websites, webapps or softwares that are outdated, we would like to take over to update them to your current needs.' %} 
+						{% trans 'We provide a wide range of services including website/web application development, mobile application development, managing software/logistics software development, and all kinds computer-related services that you will need to boost your business. We also take over legacies which means if you have current websites, webapps or softwares that are outdated, we would like to take over to update them to your current needs.' %} 
 					</p>	
           			
         		</div>
@@ -229,7 +229,7 @@
         		<div class="span6">
 	
 					<p>
-						{% trans 'We have many years experience on website/webapp development. All of our team members have worked for fortune 500 companies, and have worked on many big projects. We will bring what we learned, and what fortune 500 companies use to your business.' %}
+						{% trans 'Zenith is gathered by a group of very experienced and skilled people. All of our team members have worked for top fortune 500 companies. We will bring the best industry practices to your business.' %}
 					</p>	
           			
         		</div>
@@ -237,7 +237,7 @@
 				<div class="span6">
 	
 					<p>
-						{% trans 'we specializes in analyzing your business needs, investigating the bottleneck of your business growth, and then adopt the right technologies to integrate with your business to make it shine. We have been doing this for over 5 years, and our clients are from various industries.' %}
+						{% trans 'we specializes in analyzing your business needs, investigating the bottleneck of your business growth, and then adopt the right technologies to integrate with your business to make it shine. We have been doing this for over 5 years. We have clients from various industries.' %}
 					</p>	
           			
         		</div>
@@ -253,7 +253,7 @@
 						<i class="fa-icon-beaker"></i>
 						<h3>{% trans 'Mobile' %}</h3>
 						<p>
-							{% trans 'Making your business available on Mobile platforms (iphone, android and windows phone) is crucial for your business to grow. According to statistics, more and more people are inclined to use mobile to retrieve information, and surf internet.' %}
+							{% trans 'Making your business available on Mobile platforms (iphone, android and windows phone) is crucial for your business to grow. According to statistics, more and more people are inclined to use mobile to retrieve information, and interact with the world.' %}
 						</p>
 						<div class="clearfix"></div>
 					</div>
@@ -275,7 +275,7 @@
 						<i class="fa-icon-heart-empty"></i>
 						<h3>{% trans 'Business' %}</h3>
 						<p>
-							{% trans 'Technologies are only the tools to boost your business, and knowing how to integrate business with technologies is most important. Our team have deep understanding and experience on different industries, including retail, manufacturing, local business and etc.' %}
+							{% trans 'Technologies are only the tools to boost your business, and knowing how to choose the right technologies for your busness is most important. Our team have deep understanding and extensive experience in different industries, including retail, manufacturing, services and etc.' %}
 						</p>
 						<div class="clearfix"></div>
 					</div>

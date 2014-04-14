@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from zenith_new.form import ContactForm,LanguageForm
+from zenith_new.form import ContactForm
 from django.http import HttpResponseRedirect
 from django.core.urlresolvers import reverse
 from django.utils import translation
@@ -10,8 +10,9 @@ from django import http
 
 
 def home(request):
-    if request.method== 'POST':       
-       lanform=LanguageForm(request.POST)
+    if request.method== 'POST':
+       conform=ContactForm()       
+       #lanform=LanguageForm(request.POST)
        if lanform.is_valid():
           cd = lanform.cleaned_data
           user_language = cd['language']
@@ -21,4 +22,5 @@ def home(request):
           return HttpResponseRedirect(reverse('home'))
     else:       
        lanform=LanguageForm(auto_id=False)
-    return render(request,'index.html',{'lanform':lanform})
+       conform=ContactForm(auto_id=False)
+    return render(request,'index.html',{'lanform':lanform,'conform':conform})

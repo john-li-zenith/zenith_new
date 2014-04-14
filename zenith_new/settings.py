@@ -23,7 +23,7 @@ SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 # SECURITY WARNING: don't run with debug turned on in production!
 #import socket
 #if '127.0.' not in socket.gethostbyname(socket.gethostname()):
-DEBUG = False
+DEBUG = True
 #else:
 
 
@@ -43,11 +43,12 @@ from django.utils.translation import ugettext_lazy as _
 LANGUAGES=(
   ('en',_('English')),
   ('zh-cn',_('Chinese')),
+  ('zh-tw',_('Chinese')),
   ('ko',_('Korean')),
 )
 
 LOCALE_PATHS = (
-   os.path.join(BASE_DIR,'locale'),
+   os.path.join(BASE_DIR,'..','locale'),
 )
 
 
