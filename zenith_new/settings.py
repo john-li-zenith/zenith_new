@@ -42,7 +42,7 @@ from django.utils.translation import ugettext_lazy as _
 
 LANGUAGES=(
   ('en',_('English')),
-  ('zh',_('Chinese')),
+  ('zh-cn',_('Chinese')),
   ('ko',_('Korean')),
 )
 

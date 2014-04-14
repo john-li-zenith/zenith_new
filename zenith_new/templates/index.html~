@@ -88,11 +88,17 @@
 									<li><a href="#" class="team">{% trans 'Team' %}</a></li>
 									<li><a href="#" class="contact">{% trans 'Contact' %}</a></li>
 
-<li style="padding-top:5px;"><form style="margin:0;padding:0;" name=languageform action="{% url 'home' %}" method="POST">
+<li style="padding-top:5px;"><form style="margin:0;padding:0;" name=languageform action="{% url 'set_language' %}" method="POST">
+<input name="next" type="hidden" value="{% url 'home' %}" />
 {% csrf_token %}
-{% for boundfield in lanform %}
-{{ boundfield }}
-{% endfor %}</form></li>
+<select name="language">
+{% get_language_info_list for LANGUAGES as languages %}
+{% for language in languages %}
+<option value="{{ language.code }}"{% if language.code == LANGUAGE_CODE %} selected="selected"{% endif %}>
+    {{ language.name_local }} ({{ language.code }})
+</option>
+{% endfor %}
+</select></form></li>
 			            		</ul>
 			          		</div>
 
@@ -878,7 +884,7 @@
 								<input tabindex="3" id="www" name="www" type="text" value="" class="span12" placeholder="Phone: 123-234-3434">
 								<textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="7" placeholder="Message: ..."></textarea>
 -->
-                          {% for boundfield in form %}
+                          {% for boundfield in conform %}
 
                           {{ boundfield }}
 		  	                              					      {% endfor %}

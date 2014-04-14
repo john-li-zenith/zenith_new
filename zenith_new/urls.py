@@ -14,6 +14,7 @@ dajaxice_autodiscover()
 urlpatterns = patterns('',
 
     url(r'^$', 'zenith_new.views.home', name='home'),
+       (r'^i18n/', include('django.conf.urls.i18n')),
 
        (r'^%s/' % settings.DAJAXICE_MEDIA_PREFIX, include('dajaxice.urls')),
     # url(r'^blog/', include('blog.urls')),
