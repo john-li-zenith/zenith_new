@@ -82,7 +82,7 @@
 			            		<ul class="nav">
 									<li><a href="#" class="home">{% trans "Home" %}</a></li>
 			              			<li><a href="#" class="services">{% trans 'Services' %}</a></li>
-									<li><a href="#" class="pricing">{% trans 'Business' %}</a></li>
+									<li><a href="#" class="pricing">{% trans 'Pricing' %}</a></li>
 									<li><a href="#" class="portfolio">{% trans 'Portfolio' %}</a></li>
 									<li><a href="#" class="about">{% trans 'About' %}</a></li>
 									<li><a href="#" class="team">{% trans 'Team' %}</a></li>
@@ -202,7 +202,7 @@
 
 				<div id="page-title-inner">
 
-					<h2><span>{% trans 'What We Do' %}</span></h2>
+					<h2><span>{% trans 'Services' %}</span></h2>
 
 				</div>	
 
@@ -309,7 +309,7 @@
 
 				<div id="page-title-inner">
 
-					<h2><span>Services</span></h2>
+					<h2><span>{% trans 'Pricing' %}</span></h2>
 
 				</div>	
 
@@ -325,21 +325,21 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-cccddd">
-								<h3>Website</h3>
-								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
+								<h3>{% trans 'Website' %}</h3>
+								<h4><span class="price">$149</span> <span class="time">{% trans 'Promo Only' %}</span></h4>
 								<ul>
-									<li>Web Design</li>
-									<li>Visual Design</li>
-									<li>Logo Design</li>
-									<li>database design</li>
-									<li>business logic integration</li>
-									<li>SEO</li>
-									<li>Branding support</li>
-									<li>Marketing support</li>
-									<li>Multi-language support</li>
-									<li>CMS</li>
+									<li>{% trans 'Branding Design' %}</li>
+									<li>{% trans 'Logo Design' %}</li>
+									<li>{% trans 'Free Hosting*' %}</li>
+									<li>{% trans 'Free Email Service*' %}</li>
+									<li>{% trans 'business integration' %}</li>
+									<li>{% trans 'SEO' %}</li>
+									
+						
+									<li>{% trans 'Multi-language support*' %}</li>
+									
 								</ul>
-								<a href="#" class="buy"><span>Contact us</span></a>
+								<a class="buy"><span>{% trans '*For small business only; must qualify for free tier policy; contact us for more information' %}</span></a>
 							</div>
 						</div>
 					</div>
@@ -347,21 +347,21 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-666777">
-								<h3>Mobile App</h3>
-								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
+								<h3>{% trans 'Web Application' %}</h3>
+								<h4><span class="price">$699*</span> <span class="time">{% trans 'Professional' %}</span></h4>
 								<ul>
-									<li>iOS</li>
-									<li>iPAD</li>
-									<li>Android</li>
-									<li>Windows Phone</li>
-									<li>Website integration</li>
-									<li>Maintenance support</li>
-									<li>Feature request support</li>
-									<li>Store ranking strategy</li>
-									<li>Central managing panel</li>
-									<li>App store optimization</li>
+									<li>{% trans 'Data Driven' %}</li>
+									<li>{% trans 'E-commerce' %}</li>
+									<li>{% trans 'SQL/NO-SQL' %}</li>
+									<li>{% trans 'Cloud-based deployment' %}</li>
+									<li>{% trans 'CMS support' %}</li>
+									<li>{% trans 'Scalability' %}</li>
+									<li>{% trans 'Mobile platform support' %}</li>
+									<li>{% trans 'High-traffic design' %}</li>
+									<li>{% trans '2 year maintenance' %}</li>
+									<li>{% trans '4 feature requests' %}</li>
 								</ul>
-								<a href="#" class="buy"><span>Buy</span></a>
+								<a class="buy"><span>{% trans '*Price may vary based on cases' %}</span></a>
 							</div>
 						</div>
 					</div>	
@@ -369,21 +369,21 @@
 					<div class="span3">
 						<div class="pricing-table best-option">
 							<div class="color-custom">
-								<h3>System</h3>
-								<h4><span class="price">Fast</span> <span class="time">Professional</span></h4>
+								<h3>{% trans 'Web site/app' %}</h3>
+								<h4><span class="price">$999</span> <span class="time">{% trans 'Premium' %}</span></h4>
 								<ul>
-									<li>Windows</li>
-									<li>Mac</li>
-									<li>Linux</li>
-									<li>Accounting solution</li>
-									<li>Logistics solution</li>
-									<li>POS solution</li>
-									<li>Data analysis</li>
-									<li>Cash flow control</li>
-									<li>API</li>
-									<li>Add-ons</li>
+									<li>{% trans '4 years maintenance' %}</li>
+									<li>{% trans '12 feature requests' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
+									<li>{% trans 'Website' %}</li>
 								</ul>
-								<a href="#" class="buy"><span>Buy</span></a>
+								<a class="buy"><span>Buy</span></a>
 							</div>
 						</div>
 					</div>
@@ -391,8 +391,8 @@
 					<div class="span3">
 						<div class="pricing-table">
 							<div class="color-666777">
-								<h3>Legacy</h3>
-								<h4><span class="price">€99.99</span> <span class="time">per month</span></h4>
+								<h3>{% trans 'Big Data Application' %}</h3>
+								<h4><span class="price">€99.99</span> <span class="time">{% trans 'Ultimate' %}</span></h4>
 								<ul>
 									<li>Custom option</li>
 									<li>Custom option</li>
@@ -405,7 +405,7 @@
 									<li>Custom option</li>
 									<li>Custom option</li>
 								</ul>
-								<a href="#" class="buy"><span>Buy</span></a>
+								<a class="buy"><span>Buy</span></a>
 							</div>
 						</div>
 					</div>
