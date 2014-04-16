@@ -326,7 +326,11 @@
 						<div class="pricing-table">
 							<div class="color-cccddd">
 								<h3>{% trans 'Website' %}</h3>
+<<<<<<< HEAD
 								<h4><span class="price">$149</span> <span class="time">{% trans 'Promo Only' %}</span></h4>
+=======
+								<h4><span class="price">$99</span> <span class="time">{% trans 'Promo Only' %}</span></h4>
+>>>>>>> e9c6f41804ace5eb8932a7430cec15ad79abaa95
 								<ul>
 									<li>{% trans 'Branding Design' %}</li>
 									<li>{% trans 'Logo Design' %}</li>
@@ -348,7 +352,11 @@
 						<div class="pricing-table">
 							<div class="color-666777">
 								<h3>{% trans 'Web Application' %}</h3>
+<<<<<<< HEAD
 								<h4><span class="price">$699*</span> <span class="time">{% trans 'Professional' %}</span></h4>
+=======
+								<h4><span class="price">$299*</span> <span class="time">{% trans 'Professional' %}</span></h4>
+>>>>>>> e9c6f41804ace5eb8932a7430cec15ad79abaa95
 								<ul>
 									<li>{% trans 'Data Driven' %}</li>
 									<li>{% trans 'E-commerce' %}</li>
@@ -370,6 +378,7 @@
 						<div class="pricing-table best-option">
 							<div class="color-custom">
 								<h3>{% trans 'Web site/app' %}</h3>
+<<<<<<< HEAD
 								<h4><span class="price">$999</span> <span class="time">{% trans 'Premium' %}</span></h4>
 								<ul>
 									<li>{% trans '4 years maintenance' %}</li>
@@ -384,6 +393,22 @@
 									<li>{% trans 'Website' %}</li>
 								</ul>
 								<a class="buy"><span>Buy</span></a>
+=======
+								<h4><span class="price">$499</span> <span class="time">{% trans 'Premium' %}</span></h4>
+								<ul>
+								   <li>{% trans 'Professional features all included' %}</li>
+									<li>{% trans '4 years maintenance' %}</li>
+									<li>{% trans '20 feature requests' %}</li>
+									<li>{% trans 'CDN' %}</li>
+									<li>{% trans 'Internationalization(I18N)' %}</li>
+									<li>{% trans 'Security design' %}</li>									
+									<li>{% trans 'Logging' %}</li>
+									<li>{% trans 'Infrastructure optimization' %}</li>
+									<li>{% trans 'Load balancing' %}</li>
+									<li>{% trans 'Dedicated servers' %}</li>
+								</ul>
+								<a class="buy"><span>{% trans 'This solution is suitable for high traffic web application' %}</span></a>
+>>>>>>> e9c6f41804ace5eb8932a7430cec15ad79abaa95
 							</div>
 						</div>
 					</div>
@@ -392,7 +417,11 @@
 						<div class="pricing-table">
 							<div class="color-666777">
 								<h3>{% trans 'Big Data Application' %}</h3>
+<<<<<<< HEAD
 								<h4><span class="price">€99.99</span> <span class="time">{% trans 'Ultimate' %}</span></h4>
+=======
+								<h4><span class="price">Call us for pricing</span> <span class="time">{% trans 'Ultimate' %}</span></h4>
+>>>>>>> e9c6f41804ace5eb8932a7430cec15ad79abaa95
 								<ul>
 									<li>Custom option</li>
 									<li>Custom option</li>
