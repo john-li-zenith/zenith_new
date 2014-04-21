@@ -372,7 +372,7 @@
 								<h3>{% trans 'Web site/app' %}</h3>
 								<h4><span class="price">$499</span> <span class="time">{% trans 'Premium' %}</span></h4>
 								<ul>
-								   <li>{% trans 'Professional features all included' %}</li>
+								   <li>{% trans 'features in Professional tier included' %}</li>
 									<li>{% trans '4 years maintenance' %}</li>
 									<li>{% trans '20 feature requests' %}</li>
 									<li>{% trans 'CDN' %}</li>
@@ -392,20 +392,20 @@
 						<div class="pricing-table">
 							<div class="color-666777">
 								<h3>{% trans 'Big Data Application' %}</h3>
-								<h4><span class="price">Call us for pricing</span> <span class="time">{% trans 'Ultimate' %}</span></h4>
+								<h4><span class="price">{% trans 'Call us for pricing' %}</span> <span class="time">{% trans 'Ultimate' %}</span></h4>
 								<ul>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
-									<li>Custom option</li>
+									<li>{% trans 'NO-SQL + SQL backend' %}</li>
+									<li>{% trans 'High Concurrency' %}</li>
+									<li>{% trans 'multi-platform support' %}</li>
+									<li>{% trans 'Cloud deployment' %}</li>
+									<li>{% trans 'HTML5' %}</li>
+									<li>{% trans 'CSS3' %}</li>
+									<li>{% trans 'Non-blocking IO design' %}</li>
+									<li>{% trans 'Eventual data consistency' %}</li>
+									<li>{% trans 'Data availability' %}</li>
+									<li>{% trans 'horizontal scalability' %}</li>
 								</ul>
-								<a class="buy"><span>Buy</span></a>
+								<a class="buy"><span>{% trans 'Next generation application' %}</span></a>
 							</div>
 						</div>
 					</div>
@@ -438,7 +438,7 @@
 
 				<div id="page-title-inner">
 
-					<h2><span>Portfolio</span></h2>
+					<h2><span>{% trans 'Portfolio' %}</span></h2>
 
 				</div>	
 
@@ -463,19 +463,19 @@
 
 			<div id="filters">
 				<ul class="option-set" data-option-key="filter">
-					<li><a href="#filter" class="selected" data-option-value="*">All</a></li>
+					<li><a href="#filter" class="selected" data-option-value="*">{% trans 'All' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".admin">Admin</a></li>
+					<li><a href="#filter" data-option-value=".admin">{% trans 'Admin' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".dashboard">Dashboard</a></li>
+					<li><a href="#filter" data-option-value=".dashboard">{% trans 'Dashboard' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".website">Website</a></li>
+					<li><a href="#filter" data-option-value=".website">{% trans 'Website' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".html5">HTML5</a></li>
+					<li><a href="#filter" data-option-value=".html5">{% trans 'HTML5' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".css3">CSS3</a></li>
+					<li><a href="#filter" data-option-value=".css3">{% trans 'CSS3' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".responsive">Responsive</a></li>
+					<li><a href="#filter" data-option-value=".responsive">{% trans 'Responsive' %}</a></li>
 				</ul>
 			</div>
 
