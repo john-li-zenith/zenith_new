@@ -43,12 +43,12 @@ from django.utils.translation import ugettext_lazy as _
 LANGUAGES=(
   ('en',_('English')),
   ('zh-cn',_('Chinese')),
-  ('zh-tw',_('Chinese')),
+  
   ('ko',_('Korean')),
 )
 
 LOCALE_PATHS = (
-   os.path.join(BASE_DIR,'..','locale'),
+   os.path.join(BASE_DIR,'locale'),
 )
 
 
