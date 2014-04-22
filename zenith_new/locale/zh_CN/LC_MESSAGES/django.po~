@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-21 12:23-0400\n"
+"POT-Creation-Date: 2014-04-22 17:05-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,27 +27,44 @@ msgstr ""
 msgid "name"
 msgstr "姓名"
 
+#: form.py:14
+msgid "Name: ..."
+msgstr ""
+
 #: form.py:15
 msgid "email"
 msgstr "电子邮件"
+
+#: form.py:15
+msgid "Email: ..."
+msgstr ""
 
 #: form.py:16
 msgid "phone"
 msgstr "电话"
 
+#: form.py:16
+msgid "Phone: 123-234-3434"
+msgstr ""
+
 #: form.py:17
 msgid "message"
+msgstr "消息"
+
+#: form.py:17
+#, fuzzy
+msgid "Message: ..."
 msgstr "消息"
 
 #: settings.py:44
 msgid "English"
 msgstr "英语"
 
-#: settings.py:45 settings.py:46
+#: settings.py:45
 msgid "Chinese"
 msgstr "中文"
 
-#: settings.py:47
+#: settings.py:46
 msgid "Korean"
 msgstr "韩文"
 
@@ -158,14 +175,19 @@ msgid ""
 "need to boost your business. We also take over legacies which means if you "
 "have current websites, webapps or softwares that are outdated, we would like "
 "to take over to update them to your current needs."
-msgstr "我们提供很多服务包括网站，网络应用开发，移动平台开发，管理系统/库存管理软件开发，以及很多不同的面向商业的基于电脑和网络的开发服务。我们也接管客户现有的应用和项目，提供更新和改写服务以满足客户现有需求。"
+msgstr ""
+"我们提供很多服务包括网站，网络应用开发，移动平台开发，管理系统/库存管理软件开"
+"发，以及很多不同的面向商业的基于电脑和网络的开发服务。我们也接管客户现有的应"
+"用和项目，提供更新和改写服务以满足客户现有需求。"
 
 #: templates/index.html:232
 msgid ""
 "Zenith is gathered by a group of very experienced and skilled people. All of "
 "our team members have worked for top fortune 500 companies. We will bring "
 "the best industry practices to your business."
-msgstr "Zenith是由一批有经验有技术的人组成的团队。我们的团队都就职于财富500强公司。我们承诺将行业最好的规范带给我们的客户。"
+msgstr ""
+"Zenith是由一批有经验有技术的人组成的团队。我们的团队都就职于财富500强公司。我"
+"们承诺将行业最好的规范带给我们的客户。"
 
 #: templates/index.html:240
 msgid ""
@@ -173,7 +195,10 @@ msgid ""
 "bottleneck of your business growth, and then adopt the right technologies to "
 "integrate with your business to make it shine. We have been doing this for "
 "over 5 years. We have clients from various industries."
-msgstr "我们善于分析客户商业需求，诊断客户商业模式运营瓶颈，从而采取最优化科技方案与客户商业进行整合，使客户生意再次进入高发展模式。我们团队在过去5年内为不同行业的客户提供过解决方案。"
+msgstr ""
+"我们善于分析客户商业需求，诊断客户商业模式运营瓶颈，从而采取最优化科技方案与"
+"客户商业进行整合，使客户生意再次进入高发展模式。我们团队在过去5年内为不同行业"
+"的客户提供过解决方案。"
 
 #: templates/index.html:254
 msgid "Mobile"
@@ -185,7 +210,9 @@ msgid ""
 "windows phone) is crucial for your business to grow. According to "
 "statistics, more and more people are inclined to use mobile to retrieve "
 "information, and interact with the world."
-msgstr "让你的生意存在于移动平台（苹果，安桌和微软手机）是非常关键的。统计显示越来越多的人倾向用移动手机获得信息和与外界交流。"
+msgstr ""
+"让你的生意存在于移动平台（苹果，安桌和微软手机）是非常关键的。统计显示越来越"
+"多的人倾向用移动手机获得信息和与外界交流。"
 
 #: templates/index.html:265
 msgid "Web"
@@ -196,7 +223,8 @@ msgid ""
 "Web should be the core of the presentation of your business. Assisted with "
 "cloud technology, web applications can make lots of things possible which "
 "were not even thought about before."
-msgstr "网络是你生意展示平台的核心部分。云技术的存在使得之前不可想象的事情变为现实。"
+msgstr ""
+"网络是你生意展示平台的核心部分。云技术的存在使得之前不可想象的事情变为现实。"
 
 #: templates/index.html:276
 msgid "Business"
@@ -208,7 +236,9 @@ msgid ""
 "choose the right technologies for your busness is most important. Our team "
 "have deep understanding and extensive experience in different industries, "
 "including retail, manufacturing, services and etc."
-msgstr "科技是用来促进你的生意的，懂得如何选择正确的科技应用是最关键的。我们的团队对各个行业，包括零售，生产和服务业，有着很深的理解和大量的经验。"
+msgstr ""
+"科技是用来促进你的生意的，懂得如何选择正确的科技应用是最关键的。我们的团队对"
+"各个行业，包括零售，生产和服务业，有着很深的理解和大量的经验。"
 
 #: templates/index.html:328 templates/index.html.py:480
 msgid "Website"
@@ -473,7 +503,14 @@ msgid ""
 "technology companies. We bring the cutting edge technologies along with best "
 "industry practices to our clients via Zenith. We put clients and quality of "
 "work in front of anything else."
-msgstr "John Li在2013年成立了Zenith。作为一个年轻的公司，我们和其他公司有着很多不同。第一，我们强调才能和团队，因为我们相信只有有才能的人懂得如何团队合作才能创造奇迹。第二，我们崇尚多元化。我们的团队成员都来自不同的背景和文化。正因为此，我们才能够把我们的业务带入不同社区，并且让我们能够更好的理解不同社区发展的需要。第三，我们以我们的专业水平引以为豪。我们的团队成员都就职于顶级的科技公司。我们把领先的技术连同行业最好的规范通过Zenith带给我们的客户。我们把客户和服务质量放在一切之上。"
+msgstr ""
+"John Li在2013年成立了Zenith。作为一个年轻的公司，我们和其他公司有着很多不同。"
+"第一，我们强调才能和团队，因为我们相信只有有才能的人懂得如何团队合作才能创造"
+"奇迹。第二，我们崇尚多元化。我们的团队成员都来自不同的背景和文化。正因为此，"
+"我们才能够把我们的业务带入不同社区，并且让我们能够更好的理解不同社区发展的需"
+"要。第三，我们以我们的专业水平引以为豪。我们的团队成员都就职于顶级的科技公"
+"司。我们把领先的技术连同行业最好的规范通过Zenith带给我们的客户。我们把客户和"
+"服务质量放在一切之上。"
 
 #: templates/index.html:605
 msgid ""
@@ -485,6 +522,11 @@ msgid ""
 "said, a deep understanding on what business owners really need, and mastery "
 "of technologies are the essential elements for the connection."
 msgstr ""
+"私营个体商业是我们的主要服务对象。我们发现私营个体对于网络技术的需求增长快于"
+"大部分大型企业，这也是为什么我们成立Zenith的原因。我们致力于将最新的网络技术"
+"带给私营个体商业，让他们能从最适合他们生意的技术中受益。所以，要达到这个目"
+"的，必须有很强的技术性，并且对各行业有着很深的理解。Zenith正是这样的一个公"
+"司。"
 
 #: templates/index.html:608
 msgid ""
@@ -493,6 +535,9 @@ msgid ""
 "providing free consultation to our clients even after the project has been "
 "delivered. We truly believe we are only as good as our clients are."
 msgstr ""
+"我们珍惜与客户之间的关系，与客户一起成长。我们着重与客户的长期关系，所以我们"
+"定期会与以前客户进行交流反馈，为客户提供免费的咨询服务。我们一直认为客户好才"
+"是我们好。"
 
 #: templates/index.html:616
 msgid "Characteristics"
@@ -506,6 +551,9 @@ msgid ""
 "technologies. We are not just pure computer engineers, but engineers who "
 "understand business."
 msgstr ""
+"多样性是Zenith的核心特征之一。我们团队的成员来自不同背景文化（很多都会双语"
+"言），在不同的科技领域工作，但是我们都有对着商业和技术的整合有着深刻的理解。"
+"我们不仅仅是电脑工程师，更是懂得你生意的电脑工程师。"
 
 #: templates/index.html:621
 msgid ""
@@ -514,6 +562,9 @@ msgid ""
 "when amazing things happen. As a team, we share knowledge, help each other, "
 "and move forward together."
 msgstr ""
+"我们非常珍惜人才。Zenith还在成长，还在努力招纳更多有才华的人。我们坚信只有当"
+"一群有才华的人在一起懂得如何协作的时候，才能创造奇迹。作为一个团队，我们共享"
+"资源和知识，互相帮助，共同前进。"
 
 #: templates/index.html:624
 msgid ""
@@ -522,6 +573,8 @@ msgid ""
 "very beneficial thing for our clients. We bring our clients what industry-"
 "leading companies are using."
 msgstr ""
+"我们团队把最专业的素质带入到工作。我们把电脑网络行业最好的行业规范带入我们的"
+"工作，这将为我们的客户带来非常大的好处。客户将享用到顶尖科技公司所用的东西。"
 
 #: templates/index.html:641
 msgid "Our Skills"
@@ -559,6 +612,9 @@ msgid ""
 "databases. He is currently working for a international Law firm as a legal "
 "data consultant."
 msgstr ""
+"John有多年数据库设计，网站开发，移动开发经验。John主要应用Python, C, C#/Java"
+"和Scala语言。他主要在Django平台开发，并且熟悉各类SQL和NO-SQL数据库。他目前就"
+"职于一家国际律师楼做法律数据分析。"
 
 #: templates/index.html:750
 msgid "Web Designer"
@@ -567,13 +623,15 @@ msgstr "网络前端设计师"
 #: templates/index.html:752
 msgid ""
 "Justin is currently working in a leading gaming company as a front end web "
-"designer. Currently, he is using SASS that is based on bootstrp and HTML5/"
+"designer. Currently, he is using SASS that is based on bootstrap and HTML5/"
 "CSS3 with responsive style."
 msgstr ""
+"Justin目前就职于一家行业领先的游戏公司做网页前端设计师。目前，他主要开发基于"
+"bootstrap，HTML5/CSS3的SASS。"
 
 #: templates/index.html:773
 msgid "Project Coordinator"
-msgstr ""
+msgstr "项目协调员"
 
 #: templates/index.html:775
 msgid "Tom has been involved in numerous projects."
@@ -581,7 +639,7 @@ msgstr ""
 
 #: templates/index.html:796
 msgid "Visual Designer"
-msgstr ""
+msgstr "视觉设计师"
 
 #: templates/index.html:798
 msgid "Chloe specializes in logo and visual design."

@@ -483,16 +483,16 @@
 					<li>/</li>
 					<li><a href="#filter" data-option-value=".css3">{% trans 'CSS3' %}</a></li>
 					<li>/</li>
-					<li><a href="#filter" data-option-value=".responsive">{% trans 'Responsive' %}</a></li>
+					<li><a href="#filter" data-option-value=".mobile">{% trans 'Mobile' %}</a></li>
 				</ul>
 			</div>
 
 			<!-- start: Portfolio -->
 			<div id="portfolio-wrapper" class="row-fluid">
 								
-				<div class="span4 portfolio-item website html5 css3 responsive">
+				<div class="span4 portfolio-item website html5 css3">
 					
-					<div class="picture"><a href="" title="Smart Responsive Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a title="Smart Responsive Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 					
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'Smart Responsive Bootstrap Template' %}</a></h5>
@@ -503,9 +503,9 @@
 					</div>	
 				</div>
 
-				<div class="span4 portfolio-item website html5 css3 responsive">
+				<div class="span4 portfolio-item website html5 css3">
 					<div class="picture">
-						<a href="" title="Title"><img src="{% static "img/portfolio/great.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+						<a title="Title"><img src="{% static "img/portfolio/great.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 							<div class="item-description alt">
 								<h5><a href="">{% trans 'Great Responsive Bootstrap Template' %}</a></h5>
 								<p>
@@ -515,8 +515,8 @@
 					</div>
 				</div>
 
-				<div class="span4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/magnus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="span4 portfolio-item website html5 css3">
+					<div class="picture"><a title="Title"><img src="{% static "img/portfolio/magnus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'Magnus Responsive Bootstrap Template' %}</a></h5>
 							<p>
@@ -526,8 +526,8 @@
 					</div>
 				</div>
 
-				<div class="span4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/optimus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="span4 portfolio-item admin dashboard html5 css3">
+					<div class="picture"><a title="Title"><img src="{% static "img/portfolio/optimus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'Optimus Dashboard Bootstrap Template' %}</a></h5>
 							<p>
@@ -536,8 +536,8 @@
 					</div>
 				</div>
 
-				<div class="span4 portfolio-item admin dashboard html5 css3 responsive">
-					<div class="picture"><a href="" title="Title"><img src="{% static "img/portfolio/perfectum.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="span4 portfolio-item admin dashboard html5 css3">
+					<div class="picture"><a title="Title"><img src="{% static "img/portfolio/perfectum.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'Perfectum Dashboard Bootstrap Template' %}</a></h5>
 							<p>
@@ -547,8 +547,8 @@
 					</div>
 				</div>
 
-				<div class="span4 portfolio-item website html5 css3 responsive">
-					<div class="picture"><a href=""><img src="{% static "img/portfolio/redbox.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+				<div class="span4 portfolio-item website html5 css3">
+					<div class="picture"><a ><img src="{% static "img/portfolio/redbox.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'Red Box Responsive Bootstrap Template' %}</a></h5>
 							<p>
@@ -556,6 +556,18 @@
 							</p>
 						</div>
 					</div>
+				</div>
+				<div class="span4 portfolio-item mobile">
+					
+					<div class="picture"><a title="Test Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					
+						<div class="item-description alt">
+							<h5><a href="">{% trans 'Smart Responsive Bootstrap Template' %}</a></h5>
+							<p>
+								{% trans '' %}
+							</p>
+						</div>
+					</div>	
 				</div>
 
 			</div>
@@ -749,7 +761,7 @@
 					<div class="team-name">Justin Lee</div>
 					<div class="position">{% trans 'Web Designer' %}</div>
 					<p>
-						{% trans 'Justin is currently working in a leading gaming company as a front end web designer. Currently, he is using SASS that is based on bootstrp and HTML5/CSS3 with responsive style.' %}
+						{% trans 'Justin is currently working in a leading gaming company as a front end web designer. Currently, he is using SASS that is based on bootstrap and HTML5/CSS3 with responsive style.' %}
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
@@ -847,7 +859,7 @@
 
 				<div id="page-title-inner">
 
-						<h2><span>Contact</span></h2>
+						<h2><span>{% trans 'Contact' %}</span></h2>
 
 				</div>	
 
