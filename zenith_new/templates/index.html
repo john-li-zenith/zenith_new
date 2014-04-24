@@ -557,12 +557,26 @@
 						</div>
 					</div>
 				</div>
+
 				<div class="span4 portfolio-item mobile">
 					
-					<div class="picture"><a title="Test Template"><img src="{% static "img/portfolio/smart.png" %}" alt=""/><div class="image-overlay-link"></div></a>
+					<div class="picture"><a title="Test Template"><img src="{% static "img/portfolio/android.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 					
 						<div class="item-description alt">
-							<h5><a href="">{% trans 'Smart Responsive Bootstrap Template' %}</a></h5>
+							<h5><a href="">{% trans 'Android App' %}</a></h5>
+							<p>
+								{% trans 'A shopping app targets Android 4.4.2 KitKat is currently being developed.' %}
+							</p>
+						</div>
+					</div>	
+				</div>
+
+				<div class="span4 portfolio-item mobile">
+					
+					<div class="picture"><a title="Test Template"><img src="{% static "img/portfolio/ios.jpg" %}" alt=""/><div class="image-overlay-link"></div></a>
+					
+						<div class="item-description alt">
+							<h5><a href="">{% trans 'IOS App' %}</a></h5>
 							<p>
 								{% trans '' %}
 							</p>
@@ -653,16 +667,16 @@
 			       	<h3>{% trans 'Our Skills' %}</h3>
 			       	<ul class="progress-bar">
 						<li>
-			            	<h5>{% trans 'Web Development' %} ( 80% )</h5>
-			          	</li>
-			        	<li>
-			            	<div class="meter"><span style="width: 80%"></span></div><!-- Edite width here -->
-			          	</li>
-						<li>
-			            	<h5>{% trans 'Business Integration' %} ( 90% )</h5>
+			            	<h5>{% trans 'Web Development' %} ( 90% )</h5>
 			          	</li>
 			        	<li>
 			            	<div class="meter"><span style="width: 90%"></span></div><!-- Edite width here -->
+			          	</li>
+						<li>
+			            	<h5>{% trans 'Business Integration' %} ( 80% )</h5>
+			          	</li>
+			        	<li>
+			            	<div class="meter"><span style="width: 80%"></span></div><!-- Edite width here -->
 			          	</li>
 						<li>
 			            	<h5>{% trans 'System Development' %} ( 60% )</h5>
@@ -671,16 +685,16 @@
 			            	<div class="meter"><span style="width: 60%"></span></div><!-- Edite width here -->
 			          	</li>
 						<li>
-			            	<h5>{% trans 'Branding' %} ( 100% )</h5>
+			            	<h5>{% trans 'Branding' %} ( 70% )</h5>
 			          	</li>
 			          	<li>
-			            	<div class="meter"><span style="width: 100%"></span></div><!-- Edite width here -->
+			            	<div class="meter"><span style="width: 70%"></span></div><!-- Edite width here -->
 			          	</li>
 			          	<li>
-			            	<h5>{% trans 'SEO Optmization' %} ( 70% )</h5>
+			            	<h5>{% trans 'SEO Optmization' %} ( 85% )</h5>
 			          	</li>
 						<li>
-			            	<div class="meter"><span style="width: 70%"></span></div><!-- Edite width here -->
+			            	<div class="meter"><span style="width: 85%"></span></div><!-- Edite width here -->
 			          	</li>
 			      	</ul>
 			      	<!-- end: Skills -->
@@ -742,10 +756,10 @@
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
-							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
 							<li class="linkedin"><a href="http://www.linkedin.com/in/lichong2012">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<li class="twitter"><a>twitter</a></li>
 						</ul>
 					</div>	
 				</div>
@@ -761,20 +775,18 @@
 					<div class="team-name">Justin Lee</div>
 					<div class="position">{% trans 'Web Designer' %}</div>
 					<p>
-						{% trans 'Justin is currently working in a leading gaming company as a front end web designer. Currently, he is using SASS that is based on bootstrap and HTML5/CSS3 with responsive style.' %}
+						{% trans 'Justin is currently working in a leading gaming company as a front end web designer. He is using SASS that is based on bootstrap and HTML5/CSS3 with responsive style. Having been designing many looking-sharp front-end for websites, Justin is bringing his unique aesthetic and expertise to Zenith.' %}
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
-							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
-							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
+							<li class="linkedin"><a>linkedin</a></li>
+							<li class="twitter"><a>twitter</a></li>
 						</ul>
 					</div>	
 				</div>
-				<!-- end: About Member -->
-				
-				<hr class="clean visible-phone">
+				<!-- end: About Member -->		<hr class="clean visible-phone">
 				
 				<!-- start: About Member -->
 				<div class="span3">
@@ -784,14 +796,14 @@
 					<div class="team-name">Tom Luo</div>
 					<div class="position">{% trans 'Project Coordinator' %}</div>
 					<p>
-						{% trans 'Tom has been involved in numerous projects.' %}
+						{% trans "Tom plays a key role in all the projects in Zenith. He is the communication channel, and his job responsibility is to ensure client's requirements can be fully and correctly implemented during project development. Tom is also in charge of QC/QA of most projects." %}
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
-							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
-							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
+							<li class="linkedin"><a>linkedin</a></li>
+							<li class="twitter"><a>twitter</a></li>
 						</ul>
 					</div>	
 				</div>
@@ -811,17 +823,76 @@
 					</p>
 					<div class="social_profiles">
 						<ul class="social-bookmarks">
-							<li class="facebook"><a href="">facebook</a></li>
-							<li class="flickr"><a href="">flickr</a></li>
-							<li class="linkedin"><a href="#">linkedin</a></li>
-							<li class="twitter"><a href="#">twitter</a></li>
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
+							<li class="linkedin"><a>linkedin</a></li>
+							<li class="twitter"><a>twitter</a></li>
 						</ul>
 					</div>	
 				</div>
 				<!-- end: About Member -->
 				
 				
-				<hr class="clean visible-phone">	
+				<hr class="clean visible-phone">
+
+				
+
+
+				<!-- end: About Member -->
+			
+			</div>
+			<!-- end: Row -->
+
+			<!-- start: Row -->
+			<div class="row-fluid">
+						
+
+				<!-- start: About Member -->
+
+				<div class="span3">
+					<div class="avatar">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
+					</div>	
+					<div class="team-name">James Kresky</div>
+					<div class="position">{% trans 'Web Infrastructure Engineer' %}</div>
+					<p>
+						{% trans 'James has been developing and deploying data-driven web applications for 8 years. Currently working as a project leader in a leading cloud service company, James has very extensive experience with server side infrastructure, deployment,system administration and networking.' %}
+					</p>
+					<div class="social_profiles">
+						<ul class="social-bookmarks">
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
+							<li class="linkedin"><a>linkedin</a></li>
+							<li class="twitter"><a>twitter</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<hr class="clean visible-phone">
+
+				<!-- start: About Member -->
+				<div class="span3">
+					<div class="avatar">
+						<img class="img-circle" src="{% static "img/KyleBroflovski.png" %}" alt="team member">
+					</div>	
+					<div class="team-name">Mike Zopp</div>
+					<div class="position">{% trans 'Mobile Applicaton Developer' %}</div>
+					<p>
+						{% trans 'Mike is a very experienced web application developer. Mike has been shifted from web development to mobile development 6 years ago, and has developed many top-rated mobile applications for Android and iOS. He is mainly in charge of mobile app development in Zenith.' %}
+					</p>
+					<div class="social_profiles">
+						<ul class="social-bookmarks">
+							<li class="facebook"><a>facebook</a></li>
+							<li class="flickr"><a>flickr</a></li>
+							<li class="linkedin"><a>linkedin</a></li>
+							<li class="twitter"><a>twitter</a></li>
+						</ul>
+					</div>	
+				</div>
+
+				<hr class="clean visible-phone">
+
+				<!-- end: About Member -->
 			
 			</div>
 			<!-- end: Row -->
