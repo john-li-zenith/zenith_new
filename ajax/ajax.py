@@ -3,7 +3,7 @@ from dajax.core import Dajax
 from dajaxice.utils import deserialize_form
 from zenith_new.form import ContactForm
 from django.core.mail import send_mail
-from django.utils.translation import ugettext as _
+from django.utils.translation import ugettext_lazy as _
 import unicodedata
 
 @dajaxice_register
@@ -18,7 +18,7 @@ def send_form(request, form):
     else:
         for key in form.errors.keys():
           for error in form.errors[key]:
-             error_list += key+': '+error+'\n'         
+             error_list += _(key)+': '+error+'\n'         
         dajax.alert(error_list)
     return dajax.json()
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-22 17:05-0400\n"
+"POT-Creation-Date: 2014-04-29 22:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: form.py:11
 #, python-format
 msgid "%s is not a valid phone number"
-msgstr ""
+msgstr "%s不是一个合法的电话号码"
 
 #: form.py:14
 msgid "name"
@@ -29,7 +29,7 @@ msgstr "姓名"
 
 #: form.py:14
 msgid "Name: ..."
-msgstr ""
+msgstr "输入姓名"
 
 #: form.py:15
 msgid "email"
@@ -37,7 +37,7 @@ msgstr "电子邮件"
 
 #: form.py:15
 msgid "Email: ..."
-msgstr ""
+msgstr "输入电子邮件"
 
 #: form.py:16
 msgid "phone"
@@ -45,16 +45,15 @@ msgstr "电话"
 
 #: form.py:16
 msgid "Phone: 123-234-3434"
-msgstr ""
+msgstr "输入电话，格式：123-234-3434"
 
 #: form.py:17
 msgid "message"
 msgstr "消息"
 
 #: form.py:17
-#, fuzzy
 msgid "Message: ..."
-msgstr "消息"
+msgstr "输入消息"
 
 #: settings.py:44
 msgid "English"
@@ -92,7 +91,7 @@ msgstr "关于"
 msgid "Team"
 msgstr "团队"
 
-#: templates/index.html:89
+#: templates/index.html:89 templates/index.html.py:933
 msgid "Contact"
 msgstr "联系"
 
@@ -155,7 +154,7 @@ msgstr "温斯顿 邱吉尔"
 
 #: templates/index.html:165
 msgid "We Are All About Professionalism"
-msgstr "专业性是我们的特心"
+msgstr "我们是一个非常专业的团队"
 
 #: templates/index.html:166
 msgid ""
@@ -200,7 +199,7 @@ msgstr ""
 "客户商业进行整合，使客户生意再次进入高发展模式。我们团队在过去5年内为不同行业"
 "的客户提供过解决方案。"
 
-#: templates/index.html:254
+#: templates/index.html:254 templates/index.html.py:486
 msgid "Mobile"
 msgstr "移动"
 
@@ -454,10 +453,6 @@ msgstr "管理"
 msgid "Dashboard"
 msgstr "界面"
 
-#: templates/index.html:486
-msgid "Responsive"
-msgstr "多项"
-
 #: templates/index.html:498
 msgid "Smart Responsive Bootstrap Template"
 msgstr ""
@@ -467,30 +462,36 @@ msgid "Great Responsive Bootstrap Template"
 msgstr ""
 
 #: templates/index.html:521
-msgid "Magnus Responsive Bootstrap Template"
-msgstr ""
+#, fuzzy
+msgid "Magnus Website"
+msgstr "网站"
 
-#: templates/index.html:532
-msgid "Optimus Dashboard Bootstrap Template"
-msgstr ""
-
-#: templates/index.html:542
-msgid "Perfectum Dashboard Bootstrap Template"
+#: templates/index.html:532 templates/index.html.py:542
+msgid "E-commerce Shopping Site Dashboard"
 msgstr ""
 
 #: templates/index.html:553
-msgid "Red Box Responsive Bootstrap Template"
+#, fuzzy
+msgid "Red Box Website"
+msgstr "网站"
+
+#: templates/index.html:566
+msgid "Android App"
 msgstr ""
 
-#: templates/index.html:586
+#: templates/index.html:579
+msgid "IOS App"
+msgstr ""
+
+#: templates/index.html:612
 msgid "About Us"
 msgstr "关于我们"
 
-#: templates/index.html:600
+#: templates/index.html:626
 msgid "Our Story"
 msgstr "我们的故事"
 
-#: templates/index.html:602
+#: templates/index.html:628
 msgid ""
 "Zenith was formed by John Li in New York in 2013. As a pretty young company, "
 "we are different than others. First, we emphasize a lot on talents and "
@@ -512,7 +513,7 @@ msgstr ""
 "司。我们把领先的技术连同行业最好的规范通过Zenith带给我们的客户。我们把客户和"
 "服务质量放在一切之上。"
 
-#: templates/index.html:605
+#: templates/index.html:631
 msgid ""
 "Private sector is our main focus. We have noticed the technological needs "
 "have grown much faster in private sector than in public sector, and that is "
@@ -528,7 +529,7 @@ msgstr ""
 "的，必须有很强的技术性，并且对各行业有着很深的理解。Zenith正是这样的一个公"
 "司。"
 
-#: templates/index.html:608
+#: templates/index.html:634
 msgid ""
 "We treasure our clients, and grow with our clients. We manage to build a "
 "long term relationship with our clients, so we keep following up and "
@@ -539,11 +540,11 @@ msgstr ""
 "定期会与以前客户进行交流反馈，为客户提供免费的咨询服务。我们一直认为客户好才"
 "是我们好。"
 
-#: templates/index.html:616
+#: templates/index.html:642
 msgid "Characteristics"
 msgstr "特性"
 
-#: templates/index.html:618
+#: templates/index.html:644
 msgid ""
 "Diversity is a key characteristic here in Zenith. Team members are from "
 "different backgrounds (most are bilingual), working in different industries, "
@@ -555,7 +556,7 @@ msgstr ""
 "言），在不同的科技领域工作，但是我们都有对着商业和技术的整合有着深刻的理解。"
 "我们不仅仅是电脑工程师，更是懂得你生意的电脑工程师。"
 
-#: templates/index.html:621
+#: templates/index.html:647
 msgid ""
 "Talent is what we appreciate. Zenith is growing, and bringing more talented "
 "people on board. We believe when talent meets hardwork and teamwork, it is "
@@ -566,7 +567,7 @@ msgstr ""
 "一群有才华的人在一起懂得如何协作的时候，才能创造奇迹。作为一个团队，我们共享"
 "资源和知识，互相帮助，共同前进。"
 
-#: templates/index.html:624
+#: templates/index.html:650
 msgid ""
 "Professionalism is what our team members bring to work. We bring the "
 "industsy best practice to what we work in Zenith, which turns out to be a "
@@ -576,35 +577,35 @@ msgstr ""
 "我们团队把最专业的素质带入到工作。我们把电脑网络行业最好的行业规范带入我们的"
 "工作，这将为我们的客户带来非常大的好处。客户将享用到顶尖科技公司所用的东西。"
 
-#: templates/index.html:641
+#: templates/index.html:667
 msgid "Our Skills"
 msgstr "我们的技术"
 
-#: templates/index.html:644
+#: templates/index.html:670
 msgid "Web Development"
 msgstr "网络开发"
 
-#: templates/index.html:650
+#: templates/index.html:676
 msgid "Business Integration"
 msgstr "商业整合"
 
-#: templates/index.html:656
+#: templates/index.html:682
 msgid "System Development"
 msgstr "系统开发"
 
-#: templates/index.html:662
+#: templates/index.html:688
 msgid "Branding"
 msgstr "品牌化"
 
-#: templates/index.html:668
+#: templates/index.html:694
 msgid "SEO Optmization"
 msgstr "搜索优化"
 
-#: templates/index.html:727
+#: templates/index.html:753
 msgid "Web Developer"
 msgstr "网络程序开发员"
 
-#: templates/index.html:729
+#: templates/index.html:755
 msgid ""
 "John has many years experience on database design, website development, and "
 "web deployment. John mainly program in Python, C, C#/Java, and Scala. He "
@@ -616,43 +617,85 @@ msgstr ""
 "和Scala语言。他主要在Django平台开发，并且熟悉各类SQL和NO-SQL数据库。他目前就"
 "职于一家国际律师楼做法律数据分析。"
 
-#: templates/index.html:750
+#: templates/index.html:776
 msgid "Web Designer"
 msgstr "网络前端设计师"
 
-#: templates/index.html:752
+#: templates/index.html:778
+#, fuzzy
 msgid ""
 "Justin is currently working in a leading gaming company as a front end web "
-"designer. Currently, he is using SASS that is based on bootstrap and HTML5/"
-"CSS3 with responsive style."
+"designer. He is using SASS that is based on bootstrap and HTML5/CSS3 with "
+"responsive style. Having been designing many looking-sharp front-end for "
+"websites, Justin is bringing his unique aesthetic and expertise to Zenith."
 msgstr ""
 "Justin目前就职于一家行业领先的游戏公司做网页前端设计师。目前，他主要开发基于"
 "bootstrap，HTML5/CSS3的SASS。"
 
-#: templates/index.html:773
+#: templates/index.html:797
 msgid "Project Coordinator"
 msgstr "项目协调员"
 
-#: templates/index.html:775
-msgid "Tom has been involved in numerous projects."
+#: templates/index.html:799
+msgid ""
+"Tom plays a key role in all the projects in Zenith. He is the communication "
+"channel, and his job responsibility is to ensure client's requirements can "
+"be fully and correctly implemented during project development. Tom is also "
+"in charge of QC/QA of most projects."
 msgstr ""
 
-#: templates/index.html:796
+#: templates/index.html:820
 msgid "Visual Designer"
 msgstr "视觉设计师"
 
-#: templates/index.html:798
-msgid "Chloe specializes in logo and visual design."
+#: templates/index.html:822
+msgid ""
+"Samantha specializes in logo and visual design. She has been awarded many "
+"times in design industry. Her work can be seen in numerous magazines and "
+"advertisements. Samantha oversees Branding and Marketing service in Zenith."
 msgstr ""
 
-#: templates/index.html:865
+#: templates/index.html:857
+#, fuzzy
+msgid "Web Infrastructure Engineer"
+msgstr "底层设计优化"
+
+#: templates/index.html:859
+msgid ""
+"James has been developing and deploying data-driven web applications for 8 "
+"years. Currently working as a project leader in a leading cloud service "
+"company, James has very extensive experience with server side "
+"infrastructure, deployment,system administration and networking."
+msgstr ""
+
+#: templates/index.html:879
+#, fuzzy
+msgid "Mobile Applicaton Developer"
+msgstr "移动平台支持"
+
+#: templates/index.html:881
+msgid ""
+"Mike is a very experienced web application developer. Mike has been shifted "
+"from web development to mobile development 6 years ago, and has developed "
+"many top-rated mobile applications for Android and iOS. He is mainly in "
+"charge of mobile app development in Zenith."
+msgstr ""
+
+#: templates/index.html:948
 msgid "Phone: (646) 350-9881"
 msgstr "电话: (646) 350-9881"
 
-#: templates/index.html:866
+#: templates/index.html:949
 msgid "Web: companyname.com"
 msgstr "网站："
 
-#: templates/index.html:900
+#: templates/index.html:983
 msgid "Send message"
 msgstr "发送消息"
+
+#: templates/index.html:1078
+msgid "All Rights Reserved"
+msgstr ""
+
+#~ msgid "Responsive"
+#~ msgstr "多项"
