@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# John Li <inventu.tyrone.lee@gmail.com>, 2014.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-30 19:13+0000\n"
+"POT-Creation-Date: 2014-04-30 19:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,155 +16,154 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: form.py:11
 #, python-format
 msgid "%s is not a valid phone number"
-msgstr "%s不是一个合法的电话号码"
+msgstr ""
 
 #: form.py:14
 msgid "name"
-msgstr "姓名"
+msgstr ""
 
 #: form.py:14
 msgid "Name: ..."
-msgstr "输入姓名"
+msgstr ""
 
 #: form.py:15
 msgid "email"
-msgstr "电子邮件"
+msgstr ""
 
 #: form.py:15
 msgid "Email: ..."
-msgstr "输入电子邮件"
+msgstr ""
 
 #: form.py:16
 msgid "phone"
-msgstr "电话"
+msgstr ""
 
 #: form.py:16
 msgid "Phone: 123-234-3434"
-msgstr "输入电话，格式：123-234-3434"
+msgstr ""
 
 #: form.py:17
 msgid "message"
-msgstr "消息"
+msgstr ""
 
 #: form.py:17
 msgid "Message: ..."
-msgstr "输入消息"
+msgstr ""
 
 #: settings.py:45
 msgid "English"
-msgstr "英语"
+msgstr ""
 
 #: settings.py:46
 msgid "Chinese"
-msgstr "中文"
+msgstr ""
 
 #: settings.py:47
 msgid "Korean"
-msgstr "韩文"
+msgstr ""
 
 #: templates/index.html:83
 msgid "Home"
-msgstr "主页"
+msgstr ""
 
 #: templates/index.html:84 templates/index.html.py:205
 msgid "Services"
-msgstr "服务"
+msgstr ""
 
 #: templates/index.html:85 templates/index.html.py:312
 msgid "Pricing"
-msgstr "价格"
+msgstr ""
 
 #: templates/index.html:86 templates/index.html.py:449
 msgid "Portfolio"
-msgstr "作品"
+msgstr ""
 
 #: templates/index.html:87
 msgid "About"
-msgstr "关于"
+msgstr ""
 
 #: templates/index.html:88
 msgid "Team"
-msgstr "团队"
+msgstr ""
 
 #: templates/index.html:89 templates/index.html.py:933
 msgid "Contact"
-msgstr "联系"
+msgstr ""
 
 #: templates/index.html:132
 msgid "Make Your Business Different"
-msgstr "让你的生意变得不同"
+msgstr ""
 
 #: templates/index.html:133
 msgid ""
 "Whenever you find yourself on the side of the majority, it is time to pause "
 "and reflect."
-msgstr "每当你发现你和大多数人一样时，那就是该停下来反思的时候了"
+msgstr ""
 
 #: templates/index.html:134
 msgid "Mark Twain"
-msgstr "马克 吐温"
+msgstr ""
 
 #: templates/index.html:141
 msgid "Let Technology Lift You Up"
-msgstr "让科技提升你"
+msgstr ""
 
 #: templates/index.html:142
 msgid ""
 "It has become appallingly obvious that our technology has exceeded our "
 "humanity."
-msgstr "科技已经超越人性已经是令人惊讶的明显事实"
+msgstr ""
 
 #: templates/index.html:142
 msgid "Albert Einstein"
-msgstr "爱因斯坦"
+msgstr ""
 
 #: templates/index.html:149
 msgid "Right Tech Solution; High Efficiency"
-msgstr "对的科技方案能带来高效率"
+msgstr ""
 
 #: templates/index.html:150
 msgid ""
 "Automation applied to an efficient operation will magnify the efficiency, "
 "and automation applied to an inefficient operation will magnify the "
 "inefficiency."
-msgstr "应用在有效操作的自动化可以加大效率，反之，会降低效率"
+msgstr ""
 
 #: templates/index.html:150
 msgid "Bill Gates"
-msgstr "比尔 盖茨"
+msgstr ""
 
 #: templates/index.html:157
 msgid "Make Your Business Ready For The Future"
-msgstr "让你的生意面向未来"
+msgstr ""
 
 #: templates/index.html:158
 msgid ""
 "It is always wise to look ahead, but difficult to look further than you can "
 "see."
-msgstr "向前看总是聪明的做法，但是预见未来是相当难的"
+msgstr ""
 
 #: templates/index.html:158
 msgid "Winston Churchill"
-msgstr "温斯顿 邱吉尔"
+msgstr ""
 
 #: templates/index.html:165
 msgid "We Are All About Professionalism"
-msgstr "我们是一个非常专业的团队"
+msgstr ""
 
 #: templates/index.html:166
 msgid ""
 "It occured to me that eating is the only form of professionalism most people "
 "ever attain."
-msgstr "对很多人来说唯一能做的专业的事情就是吃饭"
+msgstr ""
 
 #: templates/index.html:166
 msgid "Don Delillo"
-msgstr "丹 德尼罗"
+msgstr ""
 
 #: templates/index.html:218
 msgid ""
@@ -175,9 +174,6 @@ msgid ""
 "have current websites, webapps or softwares that are outdated, we would like "
 "to take over to update them to your current needs."
 msgstr ""
-"我们提供很多服务包括网站，网络应用开发，移动平台开发，管理系统/库存管理软件开"
-"发，以及很多不同的面向商业的基于电脑和网络的开发服务。我们也接管客户现有的应"
-"用和项目，提供更新和改写服务以满足客户现有需求。"
 
 #: templates/index.html:232
 msgid ""
@@ -185,8 +181,6 @@ msgid ""
 "our team members have worked for top fortune 500 companies. We will bring "
 "the best industry practices to your business."
 msgstr ""
-"Zenith是由一批有经验有技术的人组成的团队。我们的团队都就职于财富500强公司。我"
-"们承诺将行业最好的规范带给我们的客户。"
 
 #: templates/index.html:240
 msgid ""
@@ -195,13 +189,10 @@ msgid ""
 "integrate with your business to make it shine. We have been doing this for "
 "over 5 years. We have clients from various industries."
 msgstr ""
-"我们善于分析客户商业需求，诊断客户商业模式运营瓶颈，从而采取最优化科技方案与"
-"客户商业进行整合，使客户生意再次进入高发展模式。我们团队在过去5年内为不同行业"
-"的客户提供过解决方案。"
 
 #: templates/index.html:254 templates/index.html.py:486
 msgid "Mobile"
-msgstr "移动"
+msgstr ""
 
 #: templates/index.html:256
 msgid ""
@@ -210,12 +201,10 @@ msgid ""
 "statistics, more and more people are inclined to use mobile to retrieve "
 "information, and interact with the world."
 msgstr ""
-"让你的生意存在于移动平台（苹果，安桌和微软手机）是非常关键的。统计显示越来越"
-"多的人倾向用移动手机获得信息和与外界交流。"
 
 #: templates/index.html:265
 msgid "Web"
-msgstr "网络"
+msgstr ""
 
 #: templates/index.html:267
 msgid ""
@@ -223,11 +212,10 @@ msgid ""
 "cloud technology, web applications can make lots of things possible which "
 "were not even thought about before."
 msgstr ""
-"网络是你生意展示平台的核心部分。云技术的存在使得之前不可想象的事情变为现实。"
 
 #: templates/index.html:276
 msgid "Business"
-msgstr "商业"
+msgstr ""
 
 #: templates/index.html:278
 msgid ""
@@ -236,74 +224,72 @@ msgid ""
 "have deep understanding and extensive experience in different industries, "
 "including retail, manufacturing, services and etc."
 msgstr ""
-"科技是用来促进你的生意的，懂得如何选择正确的科技应用是最关键的。我们的团队对"
-"各个行业，包括零售，生产和服务业，有着很深的理解和大量的经验。"
 
 #: templates/index.html:328 templates/index.html.py:480
 msgid "Website"
-msgstr "网站"
+msgstr ""
 
 #: templates/index.html:330
 msgid "Promo Only"
-msgstr "促销"
+msgstr ""
 
 #: templates/index.html:333
 msgid "Branding Design"
-msgstr "品牌设计"
+msgstr ""
 
 #: templates/index.html:334
 msgid "Logo Design"
-msgstr "商标设计"
+msgstr ""
 
 #: templates/index.html:335
 msgid "Free Hosting*"
-msgstr "免费托管"
+msgstr ""
 
 #: templates/index.html:336
 msgid "Free Email Service*"
-msgstr "免费邮件服务"
+msgstr ""
 
 #: templates/index.html:337
 msgid "business integration"
-msgstr "商业整合"
+msgstr ""
 
 #: templates/index.html:338
 msgid "SEO"
-msgstr "搜索优化"
+msgstr ""
 
 #: templates/index.html:341
 msgid "Multi-language support*"
-msgstr "多语言支持"
+msgstr ""
 
 #: templates/index.html:344
 msgid ""
 "*For small business only; must qualify for free tier policy; contact us for "
 "more information"
-msgstr "*仅面向个体私营；必须符合公司免费计划的规定；欲知详情，请联系我们"
+msgstr ""
 
 #: templates/index.html:352
 msgid "Web Application"
-msgstr "网络应用"
+msgstr ""
 
 #: templates/index.html:354
 msgid "Professional"
-msgstr "专业"
+msgstr ""
 
 #: templates/index.html:357
 msgid "Data Driven"
-msgstr "面向数据"
+msgstr ""
 
 #: templates/index.html:358
 msgid "E-commerce"
-msgstr "电子商务"
+msgstr ""
 
 #: templates/index.html:359
 msgid "SQL/NO-SQL"
-msgstr "数据库"
+msgstr ""
 
 #: templates/index.html:360
 msgid "Cloud-based deployment"
-msgstr "云端技术支持"
+msgstr ""
 
 #: templates/index.html:361
 msgid "CMS support"
@@ -311,35 +297,35 @@ msgstr ""
 
 #: templates/index.html:362
 msgid "Scalability"
-msgstr "高扩张性"
+msgstr ""
 
 #: templates/index.html:363
 msgid "Mobile platform support"
-msgstr "移动平台支持"
+msgstr ""
 
 #: templates/index.html:364
 msgid "High-traffic design"
-msgstr "高流量设计"
+msgstr ""
 
 #: templates/index.html:365
 msgid "2 year maintenance"
-msgstr "2年维护"
+msgstr ""
 
 #: templates/index.html:366
 msgid "4 feature requests"
-msgstr "4次特性增加请求"
+msgstr ""
 
 #: templates/index.html:368
 msgid "*Price may vary based on cases"
-msgstr "*价格可能根据情况变动"
+msgstr ""
 
 #: templates/index.html:376
 msgid "Web site/app"
-msgstr "网站/网络应用"
+msgstr ""
 
 #: templates/index.html:378
 msgid "Premium"
-msgstr "高级"
+msgstr ""
 
 #: templates/index.html:380
 msgid "features in Professional tier included"
@@ -347,147 +333,147 @@ msgstr ""
 
 #: templates/index.html:381
 msgid "4 years maintenance"
-msgstr "4年维护"
+msgstr ""
 
 #: templates/index.html:382
 msgid "20 feature requests"
-msgstr "20次特性增加请求"
+msgstr ""
 
 #: templates/index.html:383
 msgid "CDN"
-msgstr "云端静态文件存储"
+msgstr ""
 
 #: templates/index.html:384
 msgid "Internationalization(I18N)"
-msgstr "国际化/多语言"
+msgstr ""
 
 #: templates/index.html:385
 msgid "Security design"
-msgstr "高安全性设计"
+msgstr ""
 
 #: templates/index.html:386
 msgid "Logging"
-msgstr "全面的日志记录"
+msgstr ""
 
 #: templates/index.html:387
 msgid "Infrastructure optimization"
-msgstr "底层设计优化"
+msgstr ""
 
 #: templates/index.html:388
 msgid "Load balancing"
-msgstr "负载均衡"
+msgstr ""
 
 #: templates/index.html:389
 msgid "Dedicated servers"
-msgstr "专享服务器"
+msgstr ""
 
 #: templates/index.html:391
 msgid "This solution is suitable for high traffic web application"
-msgstr "此方案适合高流量网络程序"
+msgstr ""
 
 #: templates/index.html:400
 msgid "Big Data Application"
-msgstr "大数据应用"
+msgstr ""
 
 #: templates/index.html:402
 msgid "Call us for pricing"
-msgstr "请联系我们估价"
+msgstr ""
 
 #: templates/index.html:402
 msgid "Ultimate"
-msgstr "顶级"
+msgstr ""
 
 #: templates/index.html:405
 msgid "NO-SQL + SQL backend"
-msgstr "多类型数据后台"
+msgstr ""
 
 #: templates/index.html:406
 msgid "High Concurrency"
-msgstr "高并行"
+msgstr ""
 
 #: templates/index.html:407
 msgid "multi-platform support"
-msgstr "多平台支持"
+msgstr ""
 
 #: templates/index.html:408
 msgid "Cloud deployment"
-msgstr "云端托管"
+msgstr ""
 
 #: templates/index.html:409 templates/index.html.py:482
 msgid "HTML5"
-msgstr "HTML5"
+msgstr ""
 
 #: templates/index.html:410 templates/index.html.py:484
 msgid "CSS3"
-msgstr "CSS3"
+msgstr ""
 
 #: templates/index.html:411
 msgid "Non-blocking IO design"
-msgstr "不阻碍系统读存设计"
+msgstr ""
 
 #: templates/index.html:412
 msgid "Eventual data consistency"
-msgstr "最终数据一致性设计"
+msgstr ""
 
 #: templates/index.html:413
 msgid "Data availability"
-msgstr "数据永远在线设计"
+msgstr ""
 
 #: templates/index.html:414
 msgid "horizontal scalability"
-msgstr "平行扩张设计"
+msgstr ""
 
 #: templates/index.html:416
 msgid "Next generation application"
-msgstr "下一代应用"
+msgstr ""
 
 #: templates/index.html:474
 msgid "All"
-msgstr "全部"
+msgstr ""
 
 #: templates/index.html:476
 msgid "Admin"
-msgstr "管理"
+msgstr ""
 
 #: templates/index.html:478
 msgid "Dashboard"
-msgstr "界面"
+msgstr ""
 
 #: templates/index.html:498
 msgid "Smart Responsive Bootstrap Template"
-msgstr "Bootstrap模版"
+msgstr ""
 
 #: templates/index.html:510
 msgid "Great Responsive Bootstrap Template"
-msgstr "Bootstrap模版"
+msgstr ""
 
 #: templates/index.html:521
 msgid "Magnus Website"
-msgstr "Magnus网站"
+msgstr ""
 
 #: templates/index.html:532 templates/index.html.py:542
 msgid "E-commerce Shopping Site Dashboard"
-msgstr "电子购物网站后台管理界面"
+msgstr ""
 
 #: templates/index.html:553
 msgid "Red Box Website"
-msgstr "Red Box网站"
+msgstr ""
 
 #: templates/index.html:566
 msgid "Android App"
-msgstr "安桌手机应用"
+msgstr ""
 
 #: templates/index.html:579
 msgid "IOS App"
-msgstr "苹果手机应用"
+msgstr ""
 
 #: templates/index.html:612
 msgid "About Us"
-msgstr "关于我们"
+msgstr ""
 
 #: templates/index.html:626
 msgid "Our Story"
-msgstr "我们的故事"
+msgstr ""
 
 #: templates/index.html:628
 msgid ""
@@ -503,13 +489,6 @@ msgid ""
 "industry practices to our clients via Zenith. We put clients and quality of "
 "work in front of anything else."
 msgstr ""
-"John Li在2013年成立了Zenith。作为一个年轻的公司，我们和其他公司有着很多不同。"
-"第一，我们强调才能和团队，因为我们相信只有有才能的人懂得如何团队合作才能创造"
-"奇迹。第二，我们崇尚多元化。我们的团队成员都来自不同的背景和文化。正因为此，"
-"我们才能够把我们的业务带入不同社区，并且让我们能够更好的理解不同社区发展的需"
-"要。第三，我们以我们的专业水平引以为豪。我们的团队成员都就职于顶级的科技公"
-"司。我们把领先的技术连同行业最好的规范通过Zenith带给我们的客户。我们把客户和"
-"服务质量放在一切之上。"
 
 #: templates/index.html:631
 msgid ""
@@ -521,11 +500,6 @@ msgid ""
 "said, a deep understanding on what business owners really need, and mastery "
 "of technologies are the essential elements for the connection."
 msgstr ""
-"私营个体商业是我们的主要服务对象。我们发现私营个体对于网络技术的需求增长快于"
-"大部分大型企业，这也是为什么我们成立Zenith的原因。我们致力于将最新的网络技术"
-"带给私营个体商业，让他们能从最适合他们生意的技术中受益。所以，要达到这个目"
-"的，必须有很强的技术性，并且对各行业有着很深的理解。Zenith正是这样的一个公"
-"司。"
 
 #: templates/index.html:634
 msgid ""
@@ -534,13 +508,10 @@ msgid ""
 "providing free consultation to our clients even after the project has been "
 "delivered. We truly believe we are only as good as our clients are."
 msgstr ""
-"我们珍惜与客户之间的关系，与客户一起成长。我们着重与客户的长期关系，所以我们"
-"定期会与以前客户进行交流反馈，为客户提供免费的咨询服务。我们一直认为客户好才"
-"是我们好。"
 
 #: templates/index.html:642
 msgid "Characteristics"
-msgstr "特性"
+msgstr ""
 
 #: templates/index.html:644
 msgid ""
@@ -550,9 +521,6 @@ msgid ""
 "technologies. We are not just pure computer engineers, but engineers who "
 "understand business."
 msgstr ""
-"多样性是Zenith的核心特征之一。我们团队的成员来自不同背景文化（很多都会双语"
-"言），在不同的科技领域工作，但是我们都有对着商业和技术的整合有着深刻的理解。"
-"我们不仅仅是电脑工程师，更是懂得你生意的电脑工程师。"
 
 #: templates/index.html:647
 msgid ""
@@ -561,9 +529,6 @@ msgid ""
 "when amazing things happen. As a team, we share knowledge, help each other, "
 "and move forward together."
 msgstr ""
-"我们非常珍惜人才。Zenith还在成长，还在努力招纳更多有才华的人。我们坚信只有当"
-"一群有才华的人在一起懂得如何协作的时候，才能创造奇迹。作为一个团队，我们共享"
-"资源和知识，互相帮助，共同前进。"
 
 #: templates/index.html:650
 msgid ""
@@ -572,36 +537,34 @@ msgid ""
 "very beneficial thing for our clients. We bring our clients what industry-"
 "leading companies are using."
 msgstr ""
-"我们团队把最专业的素质带入到工作。我们把电脑网络行业最好的行业规范带入我们的"
-"工作，这将为我们的客户带来非常大的好处。客户将享用到顶尖科技公司所用的东西。"
 
 #: templates/index.html:667
 msgid "Our Skills"
-msgstr "我们的技术"
+msgstr ""
 
 #: templates/index.html:670
 msgid "Web Development"
-msgstr "网络开发"
+msgstr ""
 
 #: templates/index.html:676
 msgid "Business Integration"
-msgstr "商业整合"
+msgstr ""
 
 #: templates/index.html:682
 msgid "System Development"
-msgstr "系统开发"
+msgstr ""
 
 #: templates/index.html:688
 msgid "Branding"
-msgstr "品牌化"
+msgstr ""
 
 #: templates/index.html:694
 msgid "SEO Optmization"
-msgstr "搜索优化"
+msgstr ""
 
 #: templates/index.html:753
 msgid "Web Developer"
-msgstr "网络程序开发员"
+msgstr ""
 
 #: templates/index.html:755
 msgid ""
@@ -611,13 +574,10 @@ msgid ""
 "databases. He is currently working for a international Law firm as a legal "
 "data consultant."
 msgstr ""
-"John有多年数据库设计，网站开发，移动开发经验。John主要应用Python, C, C#/Java"
-"和Scala语言。他主要在Django平台开发，并且熟悉各类SQL和NO-SQL数据库。他目前就"
-"职于一家国际律师楼做法律数据分析。"
 
 #: templates/index.html:776
 msgid "Web Designer"
-msgstr "网络前端设计师"
+msgstr ""
 
 #: templates/index.html:778
 msgid ""
@@ -626,13 +586,10 @@ msgid ""
 "responsive style. Having been designing many looking-sharp front-end for "
 "websites, Justin is bringing his unique aesthetic and expertise to Zenith."
 msgstr ""
-"Justin目前就职于一家行业领先的游戏公司做网页前端设计师。目前，他主要开发基于"
-"bootstrap，HTML5/CSS3的SASS。Justin有过很多尖端的网站设计，他将他独特审美和网"
-"站前端设计的专业技能带入到zenith。"
 
 #: templates/index.html:797
 msgid "Project Coordinator"
-msgstr "项目协调员"
+msgstr ""
 
 #: templates/index.html:799
 msgid ""
@@ -641,12 +598,10 @@ msgid ""
 "be fully and correctly implemented during project development. Tom is also "
 "in charge of QC/QA of most projects."
 msgstr ""
-"Tom在所有的项目中都扮演一个非常重要的角色。他是团队和客户的交流渠道。他负责确"
-"保客户的要求能准确和正确的被理解和实施。Tom同时也负责项目QC/QA。"
 
 #: templates/index.html:820
 msgid "Visual Designer"
-msgstr "视觉设计师"
+msgstr ""
 
 #: templates/index.html:822
 msgid ""
@@ -654,12 +609,10 @@ msgid ""
 "times in design industry. Her work can be seen in numerous magazines and "
 "advertisements. Samantha oversees Branding and Marketing service in Zenith."
 msgstr ""
-"Samantha专长于商标和视觉设计。她在设计行业多次获奖，她的作品出现在无数的杂志"
-"和广告上。Samantha主要负责Zenith品牌化和市场化的业务。"
 
 #: templates/index.html:857
 msgid "Web Infrastructure Engineer"
-msgstr "网站架构师"
+msgstr ""
 
 #: templates/index.html:859
 msgid ""
@@ -668,13 +621,10 @@ msgid ""
 "company, James has very extensive experience with server side "
 "infrastructure, deployment,system administration and networking."
 msgstr ""
-"James已经在网络应用和数据应用行业工作了8年。目前，James在一家行业领先的网络云"
-"服务公司内任职项目带领人。James对于服务器架构，服务器管理方面有着很深的理解和"
-"大量经验。"
 
 #: templates/index.html:879
 msgid "Mobile Applicaton Developer"
-msgstr "移动平台开发员"
+msgstr ""
 
 #: templates/index.html:881
 msgid ""
@@ -683,28 +633,19 @@ msgid ""
 "many top-rated mobile applications for Android and iOS. He is mainly in "
 "charge of mobile app development in Zenith."
 msgstr ""
-"Mike是一个非常有经验的移动应用开发员。Mike自从6年前从网络应用开发转向移动应用"
-"开发以来，已经开发出很多高评价的安桌和苹果移动应用。Mike主要负责Zenith的移动"
-"业务。"
 
 #: templates/index.html:948
 msgid "Phone: (646) 350-9881"
-msgstr "电话: (646) 350-9881"
+msgstr ""
 
 #: templates/index.html:949
 msgid "Web: zen-tec.us"
-msgstr "网站： zen-tec.us"
+msgstr ""
 
 #: templates/index.html:983
 msgid "Send message"
-msgstr "发送消息"
+msgstr ""
 
 #: templates/index.html:1078
 msgid "All Rights Reserved"
-msgstr "版权所有"
-
-#~ msgid "Web: companyname.com"
-#~ msgstr "网站："
-
-#~ msgid "Responsive"
-#~ msgstr "多项"
+msgstr ""

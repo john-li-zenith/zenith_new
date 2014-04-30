@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-04-29 22:13+0000\n"
+"POT-Creation-Date: 2014-04-30 19:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,15 +55,15 @@ msgstr "消息"
 msgid "Message: ..."
 msgstr "输入消息"
 
-#: settings.py:44
+#: settings.py:45
 msgid "English"
 msgstr "英语"
 
-#: settings.py:45
+#: settings.py:46
 msgid "Chinese"
 msgstr "中文"
 
-#: settings.py:46
+#: settings.py:47
 msgid "Korean"
 msgstr "韩文"
 
@@ -455,33 +455,31 @@ msgstr "界面"
 
 #: templates/index.html:498
 msgid "Smart Responsive Bootstrap Template"
-msgstr ""
+msgstr "Bootstrap模版"
 
 #: templates/index.html:510
 msgid "Great Responsive Bootstrap Template"
-msgstr ""
+msgstr "Bootstrap模版"
 
 #: templates/index.html:521
-#, fuzzy
 msgid "Magnus Website"
-msgstr "网站"
+msgstr "Magnus网站"
 
 #: templates/index.html:532 templates/index.html.py:542
 msgid "E-commerce Shopping Site Dashboard"
-msgstr ""
+msgstr "电子购物网站后台管理界面"
 
 #: templates/index.html:553
-#, fuzzy
 msgid "Red Box Website"
-msgstr "网站"
+msgstr "Red Box网站"
 
 #: templates/index.html:566
 msgid "Android App"
-msgstr ""
+msgstr "安桌手机应用"
 
 #: templates/index.html:579
 msgid "IOS App"
-msgstr ""
+msgstr "苹果手机应用"
 
 #: templates/index.html:612
 msgid "About Us"
@@ -622,7 +620,6 @@ msgid "Web Designer"
 msgstr "网络前端设计师"
 
 #: templates/index.html:778
-#, fuzzy
 msgid ""
 "Justin is currently working in a leading gaming company as a front end web "
 "designer. He is using SASS that is based on bootstrap and HTML5/CSS3 with "
@@ -630,7 +627,8 @@ msgid ""
 "websites, Justin is bringing his unique aesthetic and expertise to Zenith."
 msgstr ""
 "Justin目前就职于一家行业领先的游戏公司做网页前端设计师。目前，他主要开发基于"
-"bootstrap，HTML5/CSS3的SASS。"
+"bootstrap，HTML5/CSS3的SASS。Justin有过很多尖端的网站设计，他将他独特审美和网"
+"站前端设计的专业技能带入到zenith。"
 
 #: templates/index.html:797
 msgid "Project Coordinator"
@@ -643,6 +641,8 @@ msgid ""
 "be fully and correctly implemented during project development. Tom is also "
 "in charge of QC/QA of most projects."
 msgstr ""
+"Tom在所有的项目中都扮演一个非常重要的角色。他是团队和客户的交流渠道。他负责确"
+"保客户的要求能准确和正确的被理解和实施。Tom同时也负责项目QC/QA。"
 
 #: templates/index.html:820
 msgid "Visual Designer"
@@ -654,11 +654,12 @@ msgid ""
 "times in design industry. Her work can be seen in numerous magazines and "
 "advertisements. Samantha oversees Branding and Marketing service in Zenith."
 msgstr ""
+"Samantha专长于商标和视觉设计。她在设计行业多次获奖，她的作品出现在无数的杂志"
+"和广告上。Samantha主要负责Zenith品牌化和市场化的业务。"
 
 #: templates/index.html:857
-#, fuzzy
 msgid "Web Infrastructure Engineer"
-msgstr "底层设计优化"
+msgstr "网站架构师"
 
 #: templates/index.html:859
 msgid ""
@@ -667,11 +668,13 @@ msgid ""
 "company, James has very extensive experience with server side "
 "infrastructure, deployment,system administration and networking."
 msgstr ""
+"James已经在网络应用和数据应用行业工作了8年。目前，James在一家行业领先的网络云"
+"服务公司内任职项目带领人。James对于服务器架构，服务器管理方面有着很深的理解和"
+"大量经验。"
 
 #: templates/index.html:879
-#, fuzzy
 msgid "Mobile Applicaton Developer"
-msgstr "移动平台支持"
+msgstr "移动平台开发员"
 
 #: templates/index.html:881
 msgid ""
@@ -680,14 +683,17 @@ msgid ""
 "many top-rated mobile applications for Android and iOS. He is mainly in "
 "charge of mobile app development in Zenith."
 msgstr ""
+"Mike是一个非常有经验的移动应用开发员。Mike自从6年前从网络应用开发转向移动应用"
+"开发以来，已经开发出很多高评价的安桌和苹果移动应用。Mike主要负责Zenith的移动"
+"业务。"
 
 #: templates/index.html:948
 msgid "Phone: (646) 350-9881"
 msgstr "电话: (646) 350-9881"
 
 #: templates/index.html:949
-msgid "Web: companyname.com"
-msgstr "网站："
+msgid "Web: zen-tec.us"
+msgstr ""
 
 #: templates/index.html:983
 msgid "Send message"
@@ -695,7 +701,10 @@ msgstr "发送消息"
 
 #: templates/index.html:1078
 msgid "All Rights Reserved"
-msgstr ""
+msgstr "版权所有"
+
+#~ msgid "Web: companyname.com"
+#~ msgstr "网站："
 
 #~ msgid "Responsive"
 #~ msgstr "多项"

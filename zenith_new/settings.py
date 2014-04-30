@@ -34,7 +34,8 @@ COMPRESS_ENABLED = True
 COMPRESS_URL= '/static/'
 COMPRESS_CSS_FILTERS=[
 'compressor.filters.template.TemplateFilter',
-'compressor.filters.css_default.CssAbsoluteFilter',
+#'compressor.filters.css_default.CssAbsoluteFilter',
+#'compressor.filters.datauri.CssDataUriFilter',
 ]
 
 # Language settings
