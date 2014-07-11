@@ -23,7 +23,7 @@ SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 # SECURITY WARNING: don't run with debug turned on in production!
 #import socket
 #if '127.0.' not in socket.gethostbyname(socket.gethostname()):
-DEBUG = False
+DEBUG = True
 #else:
 
 
@@ -196,7 +196,7 @@ if not DEBUG:
 # SendGrid setting
 if not DEBUG:
  EMAIL_HOST = 'smtp.sendgrid.net'
- EMAIL_HOST_USER = 'app21960119@heroku.com'
- EMAIL_HOST_PASSWORD = 'ujqqj5zd'
+ EMAIL_HOST_USER = os.environ['SENDGRID_USERNAME']
+ EMAIL_HOST_PASSWORD = os.environ['SENDGRID_PASSWORD']
  EMAIL_PORT = 587
  EMAIL_USE_TLS = True

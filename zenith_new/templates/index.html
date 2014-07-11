@@ -472,6 +472,8 @@
 				<ul class="option-set" data-option-key="filter">
 					<li><a href="#filter" class="selected" data-option-value="*">{% trans 'All' %}</a></li>
 					<li>/</li>
+					<li><a href="#filter" data-option-value=".ecommerce">{% trans 'E-commerce' %}</a></li>
+					<li>/</li>
 					<li><a href="#filter" data-option-value=".admin">{% trans 'Admin' %}</a></li>
 					<li>/</li>
 					<li><a href="#filter" data-option-value=".dashboard">{% trans 'Dashboard' %}</a></li>
@@ -525,12 +527,23 @@
 					</div>
 				</div>
 
+				<div class="span4 portfolio-item website html5 css3 ecommerce">
+					<div class="picture"><a title="Responsive Bootsrap Design"><img src="{% static "img/portfolio/MoMo-ecommerce.jpg" %}" alt=""/><div class="image-overlay-link"></div></a>
+						<div class="item-description alt">
+							<h5><a href="">{% trans 'MoMo Online Shopping' %}</a></h5>
+							<p>
+							
+							</p>
+						</div>	
+					</div>
+				</div>
+
 				<div class="span4 portfolio-item admin dashboard">
 					<div class="picture"><a title="Title"><img src="{% static "img/portfolio/optimus.png" %}" alt=""/><div class="image-overlay-link"></div></a>
 						<div class="item-description alt">
 							<h5><a href="">{% trans 'E-commerce Shopping Site Dashboard' %}</a></h5>
 							<p>
-								
+							</p>	
 						</div>
 					</div>
 				</div>
@@ -945,7 +958,7 @@
 					<b>Zenith Technology</b> •			
 					
 					{% trans 'Phone: (646) 350-9881' %} •			
-					{% trans 'Web: zen-tec.us' %}	
+					{% trans 'Web: zen-tec.us' %} •	info@zen-tec.us
 					<!-- end: Contact Info -->
 				
 				</div>	
