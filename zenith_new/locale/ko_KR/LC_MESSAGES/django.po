@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-11 17:31+0000\n"
+"POT-Creation-Date: 2014-08-23 14:27-0700\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,118 +54,122 @@ msgstr ""
 msgid "Message: ..."
 msgstr ""
 
-#: settings.py:45
+#: settings.py:44
 msgid "English"
 msgstr ""
 
-#: settings.py:46
+#: settings.py:45
 msgid "Chinese"
 msgstr ""
 
-#: settings.py:47
+#: settings.py:46
 msgid "Korean"
 msgstr ""
 
-#: templates/index.html:82
+#: templates/index.html:85 templates/index_new.html:86
 msgid "Home"
 msgstr ""
 
-#: templates/index.html:83 templates/index.html.py:204
+#: templates/index.html:86 templates/index.html.py:207
+#: templates/index_new.html:87 templates/index_new.html.py:208
 msgid "Services"
 msgstr ""
 
-#: templates/index.html:84 templates/index.html.py:311
+#: templates/index.html:87 templates/index.html.py:314
+#: templates/index_new.html:88 templates/index_new.html.py:315
 msgid "Pricing"
 msgstr ""
 
-#: templates/index.html:85 templates/index.html.py:448
+#: templates/index.html:88 templates/index.html.py:642
+#: templates/index_new.html:89 templates/index_new.html.py:644
 msgid "Portfolio"
 msgstr ""
 
-#: templates/index.html:86
+#: templates/index.html:89 templates/index_new.html:90
 msgid "About"
 msgstr ""
 
-#: templates/index.html:87
+#: templates/index.html:90 templates/index_new.html:91
 msgid "Team"
 msgstr ""
 
-#: templates/index.html:88 templates/index.html.py:945
+#: templates/index.html:91 templates/index.html.py:1139
+#: templates/index_new.html:92 templates/index_new.html.py:1128
 msgid "Contact"
 msgstr ""
 
-#: templates/index.html:131
+#: templates/index.html:134 templates/index_new.html:135
 msgid "Make Your Business Different"
 msgstr ""
 
-#: templates/index.html:132
+#: templates/index.html:135 templates/index_new.html:136
 msgid ""
 "Whenever you find yourself on the side of the majority, it is time to pause "
 "and reflect."
 msgstr ""
 
-#: templates/index.html:133
+#: templates/index.html:136 templates/index_new.html:137
 msgid "Mark Twain"
 msgstr ""
 
-#: templates/index.html:140
+#: templates/index.html:143 templates/index_new.html:144
 msgid "Let Technology Lift You Up"
 msgstr ""
 
-#: templates/index.html:141
+#: templates/index.html:144 templates/index_new.html:145
 msgid ""
 "It has become appallingly obvious that our technology has exceeded our "
 "humanity."
 msgstr ""
 
-#: templates/index.html:141
+#: templates/index.html:144 templates/index_new.html:145
 msgid "Albert Einstein"
 msgstr ""
 
-#: templates/index.html:148
+#: templates/index.html:151 templates/index_new.html:152
 msgid "Right Tech Solution; High Efficiency"
 msgstr ""
 
-#: templates/index.html:149
+#: templates/index.html:152 templates/index_new.html:153
 msgid ""
 "Automation applied to an efficient operation will magnify the efficiency, "
 "and automation applied to an inefficient operation will magnify the "
 "inefficiency."
 msgstr ""
 
-#: templates/index.html:149
+#: templates/index.html:152 templates/index_new.html:153
 msgid "Bill Gates"
 msgstr ""
 
-#: templates/index.html:156
+#: templates/index.html:159 templates/index_new.html:160
 msgid "Make Your Business Ready For The Future"
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:160 templates/index_new.html:161
 msgid ""
 "It is always wise to look ahead, but difficult to look further than you can "
 "see."
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:160 templates/index_new.html:161
 msgid "Winston Churchill"
 msgstr ""
 
-#: templates/index.html:164
+#: templates/index.html:167 templates/index_new.html:168
 msgid "We Are All About Professionalism"
 msgstr ""
 
-#: templates/index.html:165
+#: templates/index.html:168 templates/index_new.html:169
 msgid ""
 "It occured to me that eating is the only form of professionalism most people "
 "ever attain."
 msgstr ""
 
-#: templates/index.html:165
+#: templates/index.html:168 templates/index_new.html:169
 msgid "Don Delillo"
 msgstr ""
 
-#: templates/index.html:217
+#: templates/index.html:220 templates/index_new.html:221
 msgid ""
 "We provide a wide range of services including website/web application "
 "development, mobile application development, managing software/logistics "
@@ -175,14 +179,14 @@ msgid ""
 "to take over to update them to your current needs."
 msgstr ""
 
-#: templates/index.html:231
+#: templates/index.html:234 templates/index_new.html:235
 msgid ""
 "Zenith is gathered by a group of very experienced and skilled people. All of "
 "our team members have worked for top fortune 500 companies. We will bring "
 "the best industry practices to your business."
 msgstr ""
 
-#: templates/index.html:239
+#: templates/index.html:242 templates/index_new.html:243
 msgid ""
 "we specializes in analyzing your business needs, investigating the "
 "bottleneck of your business growth, and then adopt the right technologies to "
@@ -190,11 +194,12 @@ msgid ""
 "over 5 years. We have clients from various industries."
 msgstr ""
 
-#: templates/index.html:253 templates/index.html.py:487
+#: templates/index.html:256 templates/index.html.py:681
+#: templates/index_new.html:257 templates/index_new.html.py:681
 msgid "Mobile"
 msgstr ""
 
-#: templates/index.html:255
+#: templates/index.html:258 templates/index_new.html:259
 msgid ""
 "Making your business available on Mobile platforms (iphone, android and "
 "windows phone) is crucial for your business to grow. According to "
@@ -202,22 +207,22 @@ msgid ""
 "information, and interact with the world."
 msgstr ""
 
-#: templates/index.html:264
+#: templates/index.html:267 templates/index_new.html:268
 msgid "Web"
 msgstr ""
 
-#: templates/index.html:266
+#: templates/index.html:269 templates/index_new.html:270
 msgid ""
 "Web should be the core of the presentation of your business. Assisted with "
 "cloud technology, web applications can make lots of things possible which "
 "were not even thought about before."
 msgstr ""
 
-#: templates/index.html:275
+#: templates/index.html:278 templates/index_new.html:279
 msgid "Business"
 msgstr ""
 
-#: templates/index.html:277
+#: templates/index.html:280 templates/index_new.html:281
 msgid ""
 "Technologies are only the tools to boost your business, and knowing how to "
 "choose the right technologies for your busness is most important. Our team "
@@ -225,261 +230,433 @@ msgid ""
 "including retail, manufacturing, services and etc."
 msgstr ""
 
-#: templates/index.html:327 templates/index.html.py:481
-msgid "Website"
+#: templates/index.html:321 templates/index_new.html:321
+msgid "Cost Estimator"
 msgstr ""
 
 #: templates/index.html:329
-msgid "Promo Only"
+msgid "Brand New Website"
+msgstr ""
+
+#: templates/index.html:330
+msgid "Redesign Current Website"
+msgstr ""
+
+#: templates/index.html:331
+msgid "Minor Updates and Changes on Current Webite"
 msgstr ""
 
 #: templates/index.html:332
-msgid "Branding Design"
+msgid "E-commerce Website (Package)"
 msgstr ""
 
 #: templates/index.html:333
-msgid "Logo Design"
+msgid "CMS Website (Package)"
 msgstr ""
 
 #: templates/index.html:334
-msgid "Free Hosting*"
+msgid "Mobile App"
 msgstr ""
 
-#: templates/index.html:335
-msgid "Free Email Service*"
+#: templates/index.html:342 templates/index.html.py:471
+msgid "Type"
 msgstr ""
 
-#: templates/index.html:336
-msgid "business integration"
+#: templates/index.html:346
+msgid "Simple static website (no database needed)"
 msgstr ""
 
-#: templates/index.html:337
+#: templates/index.html:347
+msgid "Website I can edit myself"
+msgstr ""
+
+#: templates/index.html:348
+msgid "Web app that needs a lot data reading and writing"
+msgstr ""
+
+#: templates/index.html:354 templates/index.html.py:432
+msgid "Graphics"
+msgstr ""
+
+#: templates/index.html:358 templates/index.html.py:436
+msgid "I will supply web-ready images"
+msgstr ""
+
+#: templates/index.html:359 templates/index.html.py:437
+msgid "I need graphics created for website"
+msgstr ""
+
+#: templates/index.html:360 templates/index.html.py:438
+msgid "I need slideshow, gallery or multimedia on website"
+msgstr ""
+
+#: templates/index.html:366
+msgid "Features"
+msgstr ""
+
+#: templates/index.html:370
+msgid "Member registration"
+msgstr ""
+
+#: templates/index.html:371
+msgid "Blog"
+msgstr ""
+
+#: templates/index.html:372
+msgid "Discussion Forum"
+msgstr ""
+
+#: templates/index.html:373
+msgid "RSS News feed"
+msgstr ""
+
+#: templates/index.html:374
+msgid "Google maps integration"
+msgstr ""
+
+#: templates/index.html:375
+msgid "Site search"
+msgstr ""
+
+#: templates/index.html:376
+msgid "Email function"
+msgstr ""
+
+#: templates/index.html:377
+msgid "User file uploads"
+msgstr ""
+
+#: templates/index.html:378
+msgid "Google AdSense integration"
+msgstr ""
+
+#: templates/index.html:379
+msgid "Multilingural Site"
+msgstr ""
+
+#: templates/index.html:385 templates/index.html.py:445
+#: templates/index.html:482
+msgid "Responsive"
+msgstr ""
+
+#: templates/index.html:389 templates/index.html.py:400
+#: templates/index.html:411 templates/index.html.py:422
+#: templates/index.html:449 templates/index.html.py:486
+msgid "Yes"
+msgstr ""
+
+#: templates/index.html:390 templates/index.html.py:401
+#: templates/index.html:412 templates/index.html.py:423
+#: templates/index.html:450 templates/index.html.py:487
+msgid "No"
+msgstr ""
+
+#: templates/index.html:396
+msgid "Admin Site"
+msgstr ""
+
+#: templates/index.html:407 templates/index.html.py:531
+#: templates/index_new.html:533
 msgid "SEO"
 msgstr ""
 
-#: templates/index.html:340
+#: templates/index.html:418
+msgid "Social Media Integration"
+msgstr ""
+
+#: templates/index.html:458
+msgid "$100 to $200 depending on cases"
+msgstr ""
+
+#: templates/index.html:464
+msgid "We provide a thorough E-commerce solution."
+msgstr ""
+
+#: templates/index.html:465
+msgid ""
+"Includes: Responsive Design, Logo Design, SEO optimization, Admin portal, "
+"CMS, Management interface, Product management, Inventory control system, "
+"Coupon/discount system, marketing solution, Group email function, User "
+"management, Order management, Paying gateway integration, and etc."
+msgstr ""
+
+#: templates/index.html:475
+msgid "Simple CMS"
+msgstr ""
+
+#: templates/index.html:476
+msgid "Complex CMS (> 5 editable sections on page)"
+msgstr ""
+
+#: templates/index.html:495
+msgid ""
+"We do mobile apps for iOS, Android, and Windows phone. Please contact us for "
+"mobile app pricing."
+msgstr ""
+
+#: templates/index.html:500
+msgid "Back"
+msgstr ""
+
+#: templates/index.html:505
+msgid "Total Price:"
+msgstr ""
+
+#: templates/index.html:521 templates/index.html.py:675
+#: templates/index_new.html:523 templates/index_new.html.py:675
+msgid "Website"
+msgstr ""
+
+#: templates/index.html:523 templates/index_new.html:525
+msgid "Promo Only"
+msgstr ""
+
+#: templates/index.html:526 templates/index_new.html:528
+msgid "Branding Design"
+msgstr ""
+
+#: templates/index.html:527 templates/index_new.html:529
+msgid "Logo Design"
+msgstr ""
+
+#: templates/index.html:528 templates/index_new.html:530
+msgid "Free Hosting*"
+msgstr ""
+
+#: templates/index.html:529 templates/index_new.html:531
+msgid "Free Email Service*"
+msgstr ""
+
+#: templates/index.html:530 templates/index_new.html:532
+msgid "business integration"
+msgstr ""
+
+#: templates/index.html:534 templates/index_new.html:536
 msgid "Multi-language support*"
 msgstr ""
 
-#: templates/index.html:343
+#: templates/index.html:537 templates/index_new.html:539
 msgid ""
 "*For small business only; must qualify for free tier policy; contact us for "
 "more information"
 msgstr ""
 
-#: templates/index.html:351
+#: templates/index.html:545 templates/index_new.html:547
 msgid "Web Application"
 msgstr ""
 
-#: templates/index.html:353
+#: templates/index.html:547 templates/index_new.html:549
 msgid "Professional"
 msgstr ""
 
-#: templates/index.html:356
+#: templates/index.html:550 templates/index_new.html:552
 msgid "Data Driven"
 msgstr ""
 
-#: templates/index.html:357 templates/index.html.py:475
+#: templates/index.html:551 templates/index.html.py:669
+#: templates/index_new.html:553
 msgid "E-commerce"
 msgstr ""
 
-#: templates/index.html:358
+#: templates/index.html:552 templates/index_new.html:554
 msgid "SQL/NO-SQL"
 msgstr ""
 
-#: templates/index.html:359
+#: templates/index.html:553 templates/index_new.html:555
 msgid "Cloud-based deployment"
 msgstr ""
 
-#: templates/index.html:360
+#: templates/index.html:554 templates/index_new.html:556
 msgid "CMS support"
 msgstr ""
 
-#: templates/index.html:361
+#: templates/index.html:555 templates/index_new.html:557
 msgid "Scalability"
 msgstr ""
 
-#: templates/index.html:362
+#: templates/index.html:556 templates/index_new.html:558
 msgid "Mobile platform support"
 msgstr ""
 
-#: templates/index.html:363
+#: templates/index.html:557 templates/index_new.html:559
 msgid "High-traffic design"
 msgstr ""
 
-#: templates/index.html:364
+#: templates/index.html:558 templates/index_new.html:560
 msgid "2 year maintenance"
 msgstr ""
 
-#: templates/index.html:365
+#: templates/index.html:559 templates/index_new.html:561
 msgid "4 feature requests"
 msgstr ""
 
-#: templates/index.html:367
+#: templates/index.html:561 templates/index_new.html:563
 msgid "*Price may vary based on cases"
 msgstr ""
 
-#: templates/index.html:375
+#: templates/index.html:569 templates/index_new.html:571
 msgid "Web site/app"
 msgstr ""
 
-#: templates/index.html:377
+#: templates/index.html:571 templates/index_new.html:573
 msgid "Premium"
 msgstr ""
 
-#: templates/index.html:379
+#: templates/index.html:573 templates/index_new.html:575
 msgid "features in Professional tier included"
 msgstr ""
 
-#: templates/index.html:380
+#: templates/index.html:574 templates/index_new.html:576
 msgid "4 years maintenance"
 msgstr ""
 
-#: templates/index.html:381
+#: templates/index.html:575 templates/index_new.html:577
 msgid "20 feature requests"
 msgstr ""
 
-#: templates/index.html:382
+#: templates/index.html:576 templates/index_new.html:578
 msgid "CDN"
 msgstr ""
 
-#: templates/index.html:383
+#: templates/index.html:577 templates/index_new.html:579
 msgid "Internationalization(I18N)"
 msgstr ""
 
-#: templates/index.html:384
+#: templates/index.html:578 templates/index_new.html:580
 msgid "Security design"
 msgstr ""
 
-#: templates/index.html:385
+#: templates/index.html:579 templates/index_new.html:581
 msgid "Logging"
 msgstr ""
 
-#: templates/index.html:386
+#: templates/index.html:580 templates/index_new.html:582
 msgid "Infrastructure optimization"
 msgstr ""
 
-#: templates/index.html:387
+#: templates/index.html:581 templates/index_new.html:583
 msgid "Load balancing"
 msgstr ""
 
-#: templates/index.html:388
+#: templates/index.html:582 templates/index_new.html:584
 msgid "Dedicated servers"
 msgstr ""
 
-#: templates/index.html:390
+#: templates/index.html:584 templates/index_new.html:586
 msgid "This solution is suitable for high traffic web application"
 msgstr ""
 
-#: templates/index.html:399
+#: templates/index.html:593 templates/index_new.html:595
 msgid "Big Data Application"
 msgstr ""
 
-#: templates/index.html:401
+#: templates/index.html:595 templates/index_new.html:597
 msgid "Call us for pricing"
 msgstr ""
 
-#: templates/index.html:401
+#: templates/index.html:595 templates/index_new.html:597
 msgid "Ultimate"
 msgstr ""
 
-#: templates/index.html:404
+#: templates/index.html:598 templates/index_new.html:600
 msgid "NO-SQL + SQL backend"
 msgstr ""
 
-#: templates/index.html:405
+#: templates/index.html:599 templates/index_new.html:601
 msgid "High Concurrency"
 msgstr ""
 
-#: templates/index.html:406
+#: templates/index.html:600 templates/index_new.html:602
 msgid "multi-platform support"
 msgstr ""
 
-#: templates/index.html:407
+#: templates/index.html:601 templates/index_new.html:603
 msgid "Cloud deployment"
 msgstr ""
 
-#: templates/index.html:408 templates/index.html.py:483
+#: templates/index.html:602 templates/index.html.py:677
+#: templates/index_new.html:604 templates/index_new.html.py:677
 msgid "HTML5"
 msgstr ""
 
-#: templates/index.html:409 templates/index.html.py:485
+#: templates/index.html:603 templates/index.html.py:679
+#: templates/index_new.html:605 templates/index_new.html.py:679
 msgid "CSS3"
 msgstr ""
 
-#: templates/index.html:410
+#: templates/index.html:604 templates/index_new.html:606
 msgid "Non-blocking IO design"
 msgstr ""
 
-#: templates/index.html:411
+#: templates/index.html:605 templates/index_new.html:607
 msgid "Eventual data consistency"
 msgstr ""
 
-#: templates/index.html:412
+#: templates/index.html:606 templates/index_new.html:608
 msgid "Data availability"
 msgstr ""
 
-#: templates/index.html:413
+#: templates/index.html:607 templates/index_new.html:609
 msgid "horizontal scalability"
 msgstr ""
 
-#: templates/index.html:415
+#: templates/index.html:609 templates/index_new.html:611
 msgid "Next generation application"
 msgstr ""
 
-#: templates/index.html:473
+#: templates/index.html:667 templates/index_new.html:669
 msgid "All"
 msgstr ""
 
-#: templates/index.html:477
+#: templates/index.html:671 templates/index_new.html:671
 msgid "Admin"
 msgstr ""
 
-#: templates/index.html:479
+#: templates/index.html:673 templates/index_new.html:673
 msgid "Dashboard"
 msgstr ""
 
-#: templates/index.html:499
+#: templates/index.html:693 templates/index_new.html:693
 msgid "Smart Responsive Bootstrap Template"
 msgstr ""
 
-#: templates/index.html:511
+#: templates/index.html:705 templates/index_new.html:705
 msgid "Great Responsive Bootstrap Template"
 msgstr ""
 
-#: templates/index.html:522
+#: templates/index.html:716
 msgid "Magnus Website"
 msgstr ""
 
-#: templates/index.html:533
+#: templates/index.html:727
 msgid "MoMo Online Shopping"
 msgstr ""
 
-#: templates/index.html:544 templates/index.html.py:554
+#: templates/index.html:738 templates/index.html.py:748
 msgid "E-commerce Shopping Site Dashboard"
 msgstr ""
 
-#: templates/index.html:565
+#: templates/index.html:759
 msgid "Red Box Website"
 msgstr ""
 
-#: templates/index.html:578
+#: templates/index.html:772 templates/index_new.html:761
 msgid "Android App"
 msgstr ""
 
-#: templates/index.html:591
+#: templates/index.html:785 templates/index_new.html:774
 msgid "IOS App"
 msgstr ""
 
-#: templates/index.html:624
+#: templates/index.html:818 templates/index_new.html:807
 msgid "About Us"
 msgstr ""
 
-#: templates/index.html:638
+#: templates/index.html:832 templates/index_new.html:821
 msgid "Our Story"
 msgstr ""
 
-#: templates/index.html:640
+#: templates/index.html:834 templates/index_new.html:823
 msgid ""
 "Zenith was formed by John Li in New York in 2013. As a pretty young company, "
 "we are different than others. First, we emphasize a lot on talents and "
@@ -494,7 +671,7 @@ msgid ""
 "work in front of anything else."
 msgstr ""
 
-#: templates/index.html:643
+#: templates/index.html:837 templates/index_new.html:826
 msgid ""
 "Private sector is our main focus. We have noticed the technological needs "
 "have grown much faster in private sector than in public sector, and that is "
@@ -505,7 +682,7 @@ msgid ""
 "of technologies are the essential elements for the connection."
 msgstr ""
 
-#: templates/index.html:646
+#: templates/index.html:840 templates/index_new.html:829
 msgid ""
 "We treasure our clients, and grow with our clients. We manage to build a "
 "long term relationship with our clients, so we keep following up and "
@@ -513,11 +690,11 @@ msgid ""
 "delivered. We truly believe we are only as good as our clients are."
 msgstr ""
 
-#: templates/index.html:654
+#: templates/index.html:848 templates/index_new.html:837
 msgid "Characteristics"
 msgstr ""
 
-#: templates/index.html:656
+#: templates/index.html:850 templates/index_new.html:839
 msgid ""
 "Diversity is a key characteristic here in Zenith. Team members are from "
 "different backgrounds (most are bilingual), working in different industries, "
@@ -526,7 +703,7 @@ msgid ""
 "understand business."
 msgstr ""
 
-#: templates/index.html:659
+#: templates/index.html:853 templates/index_new.html:842
 msgid ""
 "Talent is what we appreciate. Zenith is growing, and bringing more talented "
 "people on board. We believe when talent meets hardwork and teamwork, it is "
@@ -534,7 +711,7 @@ msgid ""
 "and move forward together."
 msgstr ""
 
-#: templates/index.html:662
+#: templates/index.html:856 templates/index_new.html:845
 msgid ""
 "Professionalism is what our team members bring to work. We bring the "
 "industsy best practice to what we work in Zenith, which turns out to be a "
@@ -542,35 +719,35 @@ msgid ""
 "leading companies are using."
 msgstr ""
 
-#: templates/index.html:679
+#: templates/index.html:873 templates/index_new.html:862
 msgid "Our Skills"
 msgstr ""
 
-#: templates/index.html:682
+#: templates/index.html:876 templates/index_new.html:865
 msgid "Web Development"
 msgstr ""
 
-#: templates/index.html:688
+#: templates/index.html:882 templates/index_new.html:871
 msgid "Business Integration"
 msgstr ""
 
-#: templates/index.html:694
+#: templates/index.html:888 templates/index_new.html:877
 msgid "System Development"
 msgstr ""
 
-#: templates/index.html:700
+#: templates/index.html:894 templates/index_new.html:883
 msgid "Branding"
 msgstr ""
 
-#: templates/index.html:706
+#: templates/index.html:900 templates/index_new.html:889
 msgid "SEO Optmization"
 msgstr ""
 
-#: templates/index.html:765
+#: templates/index.html:959 templates/index_new.html:948
 msgid "Web Developer"
 msgstr ""
 
-#: templates/index.html:767
+#: templates/index.html:961 templates/index_new.html:950
 msgid ""
 "John has many years experience on database design, website development, and "
 "web deployment. John mainly program in Python, C, C#/Java, and Scala. He "
@@ -579,11 +756,11 @@ msgid ""
 "data consultant."
 msgstr ""
 
-#: templates/index.html:788
+#: templates/index.html:982 templates/index_new.html:971
 msgid "Web Designer"
 msgstr ""
 
-#: templates/index.html:790
+#: templates/index.html:984 templates/index_new.html:973
 msgid ""
 "Justin is currently working in a leading gaming company as a front end web "
 "designer. He is using SASS that is based on bootstrap and HTML5/CSS3 with "
@@ -591,11 +768,11 @@ msgid ""
 "websites, Justin is bringing his unique aesthetic and expertise to Zenith."
 msgstr ""
 
-#: templates/index.html:809
+#: templates/index.html:1003 templates/index_new.html:992
 msgid "Project Coordinator"
 msgstr ""
 
-#: templates/index.html:811
+#: templates/index.html:1005 templates/index_new.html:994
 msgid ""
 "Tom plays a key role in all the projects in Zenith. He is the communication "
 "channel, and his job responsibility is to ensure client's requirements can "
@@ -603,22 +780,22 @@ msgid ""
 "in charge of QC/QA of most projects."
 msgstr ""
 
-#: templates/index.html:832
+#: templates/index.html:1026 templates/index_new.html:1015
 msgid "Visual Designer"
 msgstr ""
 
-#: templates/index.html:834
+#: templates/index.html:1028
 msgid ""
 "Samantha specializes in logo and visual design. She has been awarded many "
 "times in design industry. Her work can be seen in numerous magazines and "
 "advertisements. Samantha oversees Branding and Marketing service in Zenith."
 msgstr ""
 
-#: templates/index.html:869
+#: templates/index.html:1063 templates/index_new.html:1052
 msgid "Web Infrastructure Engineer"
 msgstr ""
 
-#: templates/index.html:871
+#: templates/index.html:1065 templates/index_new.html:1054
 msgid ""
 "James has been developing and deploying data-driven web applications for 8 "
 "years. Currently working as a project leader in a leading cloud service "
@@ -626,11 +803,11 @@ msgid ""
 "infrastructure, deployment,system administration and networking."
 msgstr ""
 
-#: templates/index.html:891
+#: templates/index.html:1085 templates/index_new.html:1074
 msgid "Mobile Applicaton Developer"
 msgstr ""
 
-#: templates/index.html:893
+#: templates/index.html:1087 templates/index_new.html:1076
 msgid ""
 "Mike is a very experienced web application developer. Mike has been shifted "
 "from web development to mobile development 6 years ago, and has developed "
@@ -638,18 +815,47 @@ msgid ""
 "charge of mobile app development in Zenith."
 msgstr ""
 
-#: templates/index.html:960
+#: templates/index.html:1154 templates/index_new.html:1143
 msgid "Phone: (646) 350-9881"
 msgstr ""
 
-#: templates/index.html:961
+#: templates/index.html:1155
 msgid "Web: zen-tec.us"
 msgstr ""
 
-#: templates/index.html:995
+#: templates/index.html:1189 templates/index_new.html:1178
 msgid "Send message"
 msgstr ""
 
-#: templates/index.html:1090
+#: templates/index.html:1284
 msgid "All Rights Reserved"
+msgstr ""
+
+#: templates/index_new.html:716
+msgid "Magnus Responsive Bootstrap Template"
+msgstr ""
+
+#: templates/index_new.html:727
+msgid "Optimus Dashboard Bootstrap Template"
+msgstr ""
+
+#: templates/index_new.html:737
+msgid "Perfectum Dashboard Bootstrap Template"
+msgstr ""
+
+#: templates/index_new.html:748
+msgid "Red Box Responsive Bootstrap Template"
+msgstr ""
+
+#: templates/index_new.html:763
+msgid ""
+"A shopping app targets Android 4.4.2 KitKat is currently being developed."
+msgstr ""
+
+#: templates/index_new.html:1017
+msgid "Chloe specializes in logo and visual design."
+msgstr ""
+
+#: templates/index_new.html:1144
+msgid "Web: companyname.com"
 msgstr ""

@@ -24,7 +24,6 @@ SECRET_KEY = 'a+4z((xkno4pboaqaw1n-j2z6vt(h(3z9ls1j3t0$z-zf78k%a'
 #import socket
 #if '127.0.' not in socket.gethostbyname(socket.gethostname()):
 DEBUG = False
-#else:
 
 
 
