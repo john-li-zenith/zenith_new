@@ -41,6 +41,9 @@
 	<link href="{% static "css/fancybox.css"  %}" rel="stylesheet">
 	<link href="{% static "css/font-awesome.css"  %}" rel="stylesheet">
 	<link href="{% static "css/font-awesome-ie7.css"  %}" rel="stylesheet">
+	<!-- cost estimator css -->
+	<link rel="stylesheet" type="text/css" href="{% static "css/modal.css"  %}">
+	<link rel="stylesheet" href="{% static "css/magnific-popup.css"  %}">
 	{% endcompress %}
          <style type="text/css">select { width:90px;}</style>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
@@ -313,6 +316,197 @@
 				</div>	
 
 			</div>
+
+			<div id="popup-icon">
+    			<a href="#cost-estimator" >{% trans 'Cost Estimator' %}<img src=""></a>
+            </div>
+
+
+			<div id="cost-estimator" class="white-popup mfp-hide">
+              <div class="estimatorContainer">
+                <div class="Tab">
+                  <ul>
+                    <li class="tabs n"><div class="c" ></div>{% trans 'Brand New Website' %}</li>
+                    <li class="tabs"><div class="c" ></div>{% trans 'Redesign Current Website' %}</li>
+                    <li class="tabs n"><div class="c" ></div>{% trans 'Minor Updates and Changes on Current Webite' %}</li>
+                    <li class="tabs"><div class="c" ></div>{% trans 'E-commerce Website (Package)' %}</li>
+                    <li class="tabs n" ><div class="c" ></div>{% trans 'CMS Website (Package)' %}</li>
+                    <li class="tabs" ><div class="c" ></div>{% trans 'Mobile App' %}</li>
+                  </ul>
+                </div>
+
+
+                <div class="subContainer subContainer-hide">
+                  <div id="sub0" class="subMenu">
+                    <div  id="typeSub" class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Type' %}<div class="cost">$0</div></div>
+
+                      <div  class="subSub" id="s">
+                        <ul>
+                          <li  value="249" class="ceselected"><div class="ssquare" ></div>{% trans 'Simple static website (no database needed)' %}<div class="ceprice">$249</div></li>
+                          <li  value="499" class="notSelected"><div class="ssquare" ></div>{% trans 'Website I can edit myself' %}<div class="ceprice">$499</div></li>
+                          <li  value="899" class="notSelected"><div class="ssquare" ></div>{% trans 'Web app that needs a lot data reading and writing' %}<div class="ceprice">$899</div> </li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="graphicsSub"class="submenus">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Graphics' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="m">
+                        <ul>
+                          <li  value="25" class="notSelected"><div class="ssquare" ></div>{% trans 'I will supply web-ready images' %}<div class="ceprice">$25</div></li>
+                          <li  value="250" class="notSelected"><div class="ssquare" ></div>{% trans 'I need graphics created for website' %}<div class="ceprice">$250</div></li>
+                          <li  value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'I need slideshow, gallery or multimedia on website' %}<div class="ceprice">$150</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="featuresSub"class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Features' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="m">
+                        <ul>
+                          <li  value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'Member registration' %}<div class="ceprice">$150</div></li>
+                          <li  value="100" class="notSelected"><div class="ssquare" ></div>{% trans 'Blog' %}<div class="ceprice">$100</div></li>
+                          <li  value="250" class="notSelected"><div class="ssquare" ></div>{% trans 'Discussion Forum' %}<div class="ceprice">$250</div></li>
+                          <li  value="100" class="notSelected"><div class="ssquare" ></div>{% trans 'RSS News feed' %}<div class="ceprice">$100</div></li>
+                          <li  value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'Google maps integration' %}<div class="ceprice">$150</div></li>
+                          <li  value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'Site search' %}<div class="ceprice">$150</div></li>
+                          <li  value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'Email function' %}<div class="ceprice">$150</div></li>
+                          <li  value="200" class="notSelected"><div class="ssquare" ></div>{% trans 'User file uploads' %}<div class="ceprice">$200</div></li>
+                          <li  value="100" class="notSelected"><div class="ssquare" ></div>{% trans 'Google AdSense integration' %}<div class="ceprice">$100</div></li>
+                          <li  value="350" class="notSelected"><div class="ssquare" ></div>{% trans 'Multilingural Site' %}<div class="ceprice">$350</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="designSub"class="submenus">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Responsive' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li  value="200" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$200</div></li>
+                          <li  value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="admininterfaceSub"class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Admin Site' %}<div class="cost">$300</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li  value="300" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$300</div></li>
+                          <li  value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="SEOSub"class="submenus">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'SEO' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li value="150" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$150</div></li>
+                          <li value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="socialmediaSub"class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Social Media Integration' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li value="100" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$100</div></li>
+                          <li value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div id="sub1"class="subMenu">
+                    <div id="graphicsSub"class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Graphics' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="m">
+                        <ul>
+                          <li value="50" class="notSelected"><div class="ssquare" ></div>{% trans 'I will supply web-ready images' %}<div class="ceprice">$50</div></li>
+                          <li value="250" class="notSelected"><div class="ssquare" ></div>{% trans 'I need graphics created for website' %}<div class="ceprice">$250</div></li>
+                          <li value="100" class="notSelected"><div class="ssquare" ></div>{% trans 'I need slideshow, gallery or multimedia on website' %}<div class="ceprice">$100</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+
+                    <div id="designSub"class="submenus">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Responsive' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li value="200" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$200</div></li>
+                          <li value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="sub2"class="subMenu n">
+                    <div class="submenus static">
+                      {% trans '$100 to $200 depending on cases' %}
+                    </div>
+                  </div>
+
+                  <div id="sub3"class="subMenu n">
+                    <div class="submenus static">
+                      {% trans 'We provide a thorough E-commerce solution.' %}<br/>
+                      {% trans 'Includes: Responsive Design, Logo Design, SEO optimization, Admin portal, CMS, Management interface, Product management, Inventory control system, Coupon/discount system, marketing solution, Group email function, User management, Order management, Paying gateway integration, and etc.' %}
+                    </div>
+                  </div>
+
+                  <div id="sub4"class="subMenu">
+                    <div  id="typeSub"class="submenus n">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Type' %}<div class="cost">$0</div></div>
+
+                      <div  class="subSub" id="s">
+                        <ul>
+                          <li value="1000" class="ceselected"><div class="ssquare" ></div>{% trans 'Simple CMS' %}<div class="ceprice">$1000</div></li>
+                          <li value="2000" class="notSelected"><div class="ssquare" ></div>{% trans 'Complex CMS (> 5 editable sections on page)' %}<div class="ceprice">$2000</div></li>
+                        </ul>
+                      </div>
+                    </div>
+
+                    <div id="designSub"class="submenus">
+                      <div class="result notExpanded"><div class="cesquare" ></div>{% trans 'Responsive' %}<div class="cost">$0</div></div>
+
+                      <div class="subSub" id="s">
+                        <ul>
+                          <li value="200" class="notSelected"><div class="ssquare" ></div>{% trans 'Yes' %}<div class="ceprice">$200</div></li>
+                          <li value="0" class="ceselected"><div class="ssquare" ></div>{% trans 'No' %}<div class="ceprice">$0</div></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div id="sub5"class="subMenu n">
+                    <div class="submenus static">
+                      {% trans 'We do mobile apps for iOS, Android, and Windows phone. Please contact us for mobile app pricing.' %}
+                    </div>
+                  </div>
+
+                  <div class="backtoTab">
+                    {% trans 'Back' %}
+                  </div>
+
+
+                  <div class="totalCost">
+                    {% trans 'Total Price:' %}$0
+                  </div>
+                </div>
+              </div>
+            </div>
 			<!-- end: Page Title -->
 				
 			<!-- start: Table -->
@@ -1125,6 +1319,15 @@
 <script type="text/javascript" src="{% static "js/jquery.flot.resize.min.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.ba-serializeobject.min.js" %}"></script>
 <script defer="defer" src="{% static "js/custom.js" %}"></script>
+<!-- cost estimator js -->
+<script type="text/javascript" src="{% static "js/modal.js" %}"></script>
+<script type="text/javascript" src="{% static "js/jquery.magnific-popup.js" %}"></script>
+<script> 
+$('#popup-icon').magnificPopup({
+  delegate: 'a',
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
+</script> 
 
 <script type="text/javascript">
 function send_form(){
