@@ -53,10 +53,9 @@
 
 .Tab{
 	background:rgb(91,194,206);
-
+	left:0;
 	position:absolute;
-	width:50%;
-	left:25%;
+	width:100%;
 	border:4px solid rgb(77,164,174);
 	border-radius : 4px;
 	-webkit-transition: all 200ms ease-in;
@@ -68,10 +67,9 @@
 
 .subContainer{
 	background:rgb(91,194,206);
-
+	left:0;
 	position:absolute;
-	width:50%;
-	left:25%;
+	width:100%;
 	border:4px solid rgb(77,164,174);
 	border-radius : 4px;
 	-webkit-transition: all 200ms ease-in;
@@ -84,13 +82,12 @@
 
 .subContainer-hide{
 	opacity:0;
-	left:50%;
+	
 }
 
 
 .Tab-hide{
 	opacity:0;
-	left:10%;
 
 }
 
@@ -312,27 +309,29 @@ ul .n{
 .totalCost{
 	position:relative;
 	float :right;
-	margin-right:5%;
-	margin-top:-1.3em;
+	margin-right:10%;
 	padding-bottom:10px;
 	color:rgb(255,255,255);
+
 }
 
 .static{
 	color:rgb(136,136,136);
 	padding-left:10%;
 	padding-right:5%;
-	padding-top:12px;
-	padding-bottom:12px;
+	padding-top:10px;
+	padding-bottom:10px;
 }
 
-
+.bottomMenu{
+padding-top:10px;
+}
 
 .backtoTab{
 	color:rgb(255,255,255);
 	margin-left:10%;
-	padding-top: 10px;
-	padding-bottom: 10px;
+
+	display:inline;
 
 	-webkit-transition: all 200ms ease-in;
 	-moz-transition: all 200ms ease-in;
@@ -350,7 +349,7 @@ ul .n{
 
 }
 
-.notSelected .price{
+.notSelected .ceprice{
 	color:rgb(222,222,222);
 }
 

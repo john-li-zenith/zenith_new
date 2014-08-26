@@ -42,8 +42,8 @@
 	<link href="{% static "css/font-awesome.css"  %}" rel="stylesheet">
 	<link href="{% static "css/font-awesome-ie7.css"  %}" rel="stylesheet">
 	<!-- cost estimator css -->
-	<link rel="stylesheet" type="text/css" href="{% static "css/modal.css"  %}">
-	<link rel="stylesheet" href="{% static "css/magnific-popup.css"  %}">
+	<link href="{% static "css/modal.css"  %}" rel="stylesheet" >
+	<link href="{% static "css/magnific-popup.css"  %}" rel="stylesheet" >
 	{% endcompress %}
          <style type="text/css">select { width:90px;}</style>
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
@@ -495,7 +495,7 @@
                       {% trans 'We do mobile apps for iOS, Android, and Windows phone. Please contact us for mobile app pricing.' %}
                     </div>
                   </div>
-
+				<div class="bottomMenu">
                   <div class="backtoTab">
                     {% trans 'Back' %}
                   </div>
@@ -504,6 +504,7 @@
                   <div class="totalCost">
                     {% trans 'Total Price:' %}$0
                   </div>
+				  </div>
                 </div>
               </div>
             </div>
@@ -1320,14 +1321,8 @@
 <script type="text/javascript" src="{% static "js/jquery.ba-serializeobject.min.js" %}"></script>
 <script defer="defer" src="{% static "js/custom.js" %}"></script>
 <!-- cost estimator js -->
-<script type="text/javascript" src="{% static "js/modal.js" %}"></script>
 <script type="text/javascript" src="{% static "js/jquery.magnific-popup.js" %}"></script>
-<script> 
-$('#popup-icon').magnificPopup({
-  delegate: 'a',
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
-</script> 
+<script type="text/javascript" src="{% static "js/modal.js" %}"></script>
 
 <script type="text/javascript">
 function send_form(){

@@ -1,8 +1,38 @@
 var app = (function(w, d) {
 	var visibleSub;
 
+    var setCss = function() {
+        if($(window).width() > 800) {
+            $(".Tab").css('width', "50%").css('left', "25%");
+			
+            $(".subContainer").css('width', "50%").css('left', "25%");
+			
+			$(".estimatorContainer").css("font-size","20px");
+			$(".subSub").css("font-size","18px");
+
+           // $(".Tab-hide").css('left', "10%");
+           // $(".subContainer-hide").css('left', "50%");
+
+        } else {
+            $(".Tab").css('width', "100%").css('left', "0");
+			
+            $(".subContainer").css('width', "100%").css('left', "0");
+			
+			$(".estimatorContainer").css("font-size","16px");
+			$(".subSub").css("font-size","13px");
+           // $(".Tab-hide").css('left', "-20%");
+           // $(".subContainer-hide").css('left', "20%");
+			}
+    };
+
+
+	
+	
 	var attachEvents = function() {
 		$(document).ready(function(){
+		        setCss();
+				$(window).resize(setCss);
+		 
 			$(".tabs").click(function(){
 				showSubMenu($(".tabs").index(this));
 				if(visibleSub==2 || visibleSub==3){
@@ -123,9 +153,9 @@ var app = (function(w, d) {
 		$(".subSub").css( "height", "0px" );
 		$(".backtoTab").show();
 		$(".totalCost").show();
-		$(".subContainer").removeClass("subContainer-hide");
 		visibleSub=index;
-		setTimeout(function(){$(".Tab").hide();},200);
+		setTimeout(function(){	$(".subContainer").removeClass("subContainer-hide");
+								$(".Tab").hide();},200);
 	};
 
 	var showMainTabs = function(){
@@ -169,7 +199,12 @@ var app = (function(w, d) {
 })(window, document);
 
 window.addEventListener('DOMContentLoaded', function(){
+$('#popup-icon').magnificPopup({
+  delegate: 'a',
+  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+});
 	app.init(function(){
 		app.attachEvents();
 	});
 });
+
