@@ -4,25 +4,20 @@ var app = (function(w, d) {
     var setCss = function() {
         if($(window).width() > 800) {
             $(".Tab").css('width', "50%").css('left', "25%");
-			
             $(".subContainer").css('width', "50%").css('left', "25%");
-			
 			$(".estimatorContainer").css("font-size","20px");
 			$(".subSub").css("font-size","18px");
-
            // $(".Tab-hide").css('left', "10%");
            // $(".subContainer-hide").css('left', "50%");
 
         } else {
             $(".Tab").css('width', "100%").css('left', "0");
-			
             $(".subContainer").css('width', "100%").css('left', "0");
-			
 			$(".estimatorContainer").css("font-size","16px");
 			$(".subSub").css("font-size","13px");
            // $(".Tab-hide").css('left', "-20%");
            // $(".subContainer-hide").css('left', "20%");
-			}
+		}
     };
 
 
@@ -30,9 +25,9 @@ var app = (function(w, d) {
 	
 	var attachEvents = function() {
 		$(document).ready(function(){
-		        setCss();
-				$(window).resize(setCss);
-		 
+		    setCss();
+			$(window).resize(setCss);
+
 			$(".tabs").click(function(){
 				showSubMenu($(".tabs").index(this));
 				if(visibleSub==2 || visibleSub==3){
@@ -98,7 +93,6 @@ var app = (function(w, d) {
 	//single selection
 	var getResult=function(selection){
 		var id=selection.parent().parent().parent().attr('id');
-
 		//change class name for selected option
 		if(selection.attr('class')=="notSelected"){
 			$("#sub"+visibleSub+" #"+id+" .subSub ul .ceselected").addClass("notSelected");
@@ -137,8 +131,6 @@ var app = (function(w, d) {
 				animateAuto($("#sub"+visibleSub+" #"+id+" .subSub"),200);
 				$(".expanded").removeClass("expanded");
 				selection.addClass("expanded");
-
-
 			}
 		}
 	};
@@ -146,8 +138,7 @@ var app = (function(w, d) {
 	var showSubMenu=function(index){
 		$(".Tab").addClass("Tab-hide");
 		$(".subContainer").show();
-				$(".expanded").removeClass("expanded");
-
+		$(".expanded").removeClass("expanded");
 		$(".subMenu").hide();
 		$("#sub"+index.toString()).show();
 		$(".subSub").css( "height", "0px" );
@@ -167,12 +158,10 @@ var app = (function(w, d) {
 
 	var init = function(callback) {
 		// console.log('App init');
-
 		$(".subContainer").hide();
-		$(".subMenu").hide();//use css animation later
-
+		$(".subMenu").hide();
 		$(".subSub").css( "height", "0px" );
-		$(".backtoTab").hide();//use css animation later
+		$(".backtoTab").hide();
 		$(".totalCost").hide();
 
 		if (callback){
@@ -183,13 +172,11 @@ var app = (function(w, d) {
 
 	var animateAuto = function(el, speed, callback){
 		var elem, height;
-
 		el = jQuery(el), elem = el.clone().css({"height":"auto"}).appendTo("body");
         height = elem.css("height"),
         elem.remove();
         el.animate({"height":height}, speed, callback);
 	};
-
 	return {
 		attachEvents : attachEvents,
 		init : init,
@@ -199,10 +186,11 @@ var app = (function(w, d) {
 })(window, document);
 
 window.addEventListener('DOMContentLoaded', function(){
-$('#popup-icon').magnificPopup({
-  delegate: 'a',
-  midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
-});
+	$('#popup-icon').magnificPopup({
+		delegate: 'a',
+		midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
+	});
+	
 	app.init(function(){
 		app.attachEvents();
 	});
